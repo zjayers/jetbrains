@@ -1,29 +1,8 @@
 <application>
   <component name="ProjectManager">
     <defaultProject>
-      <component name="PrettierConfiguration">
-        <option name="myRunOnSave" value="true" />
-        <option name="myRunOnReformat" value="true" />
-      </component>
-      <component name="ProjectViewState">
-        <option name="hideEmptyMiddlePackages" value="true" />
-        <option name="showLibraryContents" value="true" />
-        <option name="sortByType" value="true" />
-      </component>
       <component name="PropertiesComponent">
-        <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.nvm/versions/node/v14.5.0/lib/node_modules/prettier" />
-        <property name="run.prettier.on.save" value="true" />
-        <property name="settings.editor.selected.configurable" value="ics" />
-      </component>
-      <component name="SaveActionSettings">
-        <option name="actions">
-          <set>
-            <option value="activate" />
-            <option value="organizeImports" />
-            <option value="reformat" />
-            <option value="rearrange" />
-          </set>
-        </option>
+        <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
       </component>
     </defaultProject>
   </component>
