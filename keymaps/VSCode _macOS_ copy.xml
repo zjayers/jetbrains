@@ -10,6 +10,10 @@
     <keyboard-shortcut first-keystroke="meta minus" />
   </action>
   <action id="Generate" />
+  <action id="Scala.ShowImplicits">
+    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt add" />
+  </action>
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="meta f2" />
     <keyboard-shortcut first-keystroke="ctrl meta g" />
