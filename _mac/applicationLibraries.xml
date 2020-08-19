@@ -1,0 +1,36 @@
+<application>
+  <component name="libraryTable">
+    <library name="@types/cheerio" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/express" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/faker" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/random" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/redis" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/socket.io" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/tinycolor2" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/validator" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+  </component>
+</application>

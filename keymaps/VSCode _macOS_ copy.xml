@@ -1,0 +1,18 @@
+<keymap version="1" name="VSCode (macOS) copy" parent="VSCode OSX">
+  <action id="ActivateCommitToolWindow" />
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="meta alt open_bracket" />
+  </action>
+  <action id="FileChooser.LightEditGotoOpenedFile">
+    <keyboard-shortcut first-keystroke="meta 0" />
+  </action>
+  <action id="FocusEditor">
+    <keyboard-shortcut first-keystroke="meta minus" />
+  </action>
+  <action id="Generate" />
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="meta f2" />
+    <keyboard-shortcut first-keystroke="ctrl meta g" />
+    <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
+</keymap>

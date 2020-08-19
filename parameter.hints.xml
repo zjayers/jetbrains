@@ -1,0 +1,10 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="JavaScript">
+        <added pattern="Chai.Assert.equal(actual,expected,message)" />
+      </blacklist>
+    </blacklists>
+    <option id="js.only.show.names.for.all.args" value="true" />
+  </component>
+</application>

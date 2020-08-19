@@ -1,0 +1,16 @@
+<templateSet group="user">
+  <template name="enz" value="import React from 'react';&#10;import { shallow } from 'enzyme';&#10;import $ComponentName$ from '../$ComponentName$';&#10;&#10;describe('$ComponentName$ Component', () =&gt; {&#10;  let component;&#10;&#10;  beforeEach(() =&gt; {&#10;    component = shallow(&lt;$ComponentName$ /&gt;);&#10;  });&#10;&#10;  afterEach(() =&gt; {&#10;    component.unmount();&#10;  });&#10;&#10;  it('should render without failure', () =&gt; {&#10;    expect(component).toBeDefined();&#10;  });&#10;});" description="Standard Enzyme Test For React Component" toReformat="true" toShortenFQNames="true">
+    <variable name="ComponentName" expression="capitalize(String)" defaultValue="&quot;MyComponent&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="snap" value="import renderer from 'react-test-renderer';&#10;&#10;it('should match the test snapshot', () =&gt; {&#10;    const tree = renderer.create(&lt;$CompnentName$ /&gt;).toJSON();&#10;    expect(tree).toMatchSnapshot();&#10;  });" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="CompnentName" expression="" defaultValue="&quot;MyComponent&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
