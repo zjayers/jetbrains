@@ -28,6 +28,7 @@
       <mapping pattern="queue" type="PLAIN_TEXT" />
       <mapping pattern="node" type="PLAIN_TEXT" />
       <mapping pattern="weak-map" type="PLAIN_TEXT" />
+      <mapping pattern="get-mean-value" type="PLAIN_TEXT" />
       <mapping pattern="merge" type="PLAIN_TEXT" />
       <mapping pattern="binary-search-tree" type="PLAIN_TEXT" />
       <mapping pattern="map" type="PLAIN_TEXT" />
