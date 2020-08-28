@@ -4,7 +4,7 @@
     <property name="created">2020-07-14T17:31:54</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2020.1.3.0.0</property>
-    <property name="modified">2020-08-20T10:16:54</property>
+    <property name="modified">2020-08-28T12:08:45</property>
     <property name="originalScheme">Material Deep Ocean</property>
     <property name="rainbow Python">true</property>
   </metaInfo>
@@ -370,11 +370,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="CSS.PROPERTY_NAME">
-      <value>
-        <option name="FOREGROUND" value="b2ccd6" />
-      </value>
-    </option>
     <option name="CSS.PROPERTY_VALUE">
       <value>
         <option name="FOREGROUND" value="f78c6c" />
@@ -664,6 +659,7 @@
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
       <value>
+        <option name="FOREGROUND" value="ffcb6b" />
         <option name="BACKGROUND" value="1a1c25" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
@@ -1032,9 +1028,6 @@
     </option>
     <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
-    <option name="HTML_CODE">
-      <value />
-    </option>
     <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
     <option name="HTML_TAG">
       <value>
@@ -1226,6 +1219,11 @@
         <option name="FOREGROUND" value="f78c6c" />
       </value>
     </option>
+    <option name="JS.FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="c792ea" />
+      </value>
+    </option>
     <option name="JS.GLOBAL_FUNCTION">
       <value>
         <option name="FOREGROUND" value="ffcb6b" />
@@ -1257,6 +1255,11 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="JS.PRIMITIVE">
+      <value>
+        <option name="FOREGROUND" value="ff6b6b" />
+      </value>
+    </option>
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="c3e88d" />
@@ -1265,6 +1268,11 @@
     <option name="JS.THIS_SUPER">
       <value>
         <option name="FOREGROUND" value="ff4965" />
+      </value>
+    </option>
+    <option name="JS.VAR_DEF">
+      <value>
+        <option name="FOREGROUND" value="c792ea" />
       </value>
     </option>
     <option name="JSON.KEYWORD">
