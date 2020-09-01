@@ -4,7 +4,7 @@
     <property name="created">2020-07-14T17:31:54</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2020.1.3.0.0</property>
-    <property name="modified">2020-08-28T16:56:53</property>
+    <property name="modified">2020-09-01T15:35:21</property>
     <property name="originalScheme">Material Deep Ocean</property>
     <property name="rainbow Python">true</property>
   </metaInfo>
@@ -1224,6 +1224,7 @@
     <option name="JS.CONSOLE">
       <value>
         <option name="FOREGROUND" value="ff6b6b" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="JS.DEBUGGER_STMT">
