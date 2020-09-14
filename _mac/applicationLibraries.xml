@@ -23,6 +23,10 @@
       <CLASSES />
       <SOURCES />
     </library>
+    <library name="@types/window-or-global" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
     <library name="actioncable (v6.0.3.2, rbenv: 2.6.3) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
