@@ -199,4 +199,10 @@
     <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="rnbase" value="// - Imports&#10;import React from &quot;react&quot;;&#10;import { View, Text, StyleSheet } from &quot;react-native&quot;;&#10;&#10;/**&#10; * $FILENAME$ Component&#10; * @returns {JSX.Element} - JSX to be rendered to the screen&#10; */&#10;const $FILENAME$ = (props) =&gt; {&#10;  return (&#10;    &lt;View style={styles.container}&gt;&#10;      &lt;Text style={styles.primaryText}&gt;$FILENAME$ works!&lt;/Text&gt;&#10;    &lt;/View&gt;&#10;  );&#10;};&#10;&#10;// - Styles&#10;const styles = StyleSheet.create({&#10;    container: {},&#10;    primaryText: {}&#10;});&#10;&#10;// - Exports&#10;export default $FILENAME$;" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
