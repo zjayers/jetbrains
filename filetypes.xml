@@ -30,8 +30,8 @@
       <mapping pattern="weak-map" type="PLAIN_TEXT" />
       <mapping pattern="get-mean-value" type="PLAIN_TEXT" />
       <mapping pattern="merge" type="PLAIN_TEXT" />
-      <mapping pattern="binary-search-tree" type="PLAIN_TEXT" />
       <mapping pattern="map" type="PLAIN_TEXT" />
+      <mapping pattern="binary-search-tree" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="directed-graph" type="PLAIN_TEXT" />
       <mapping pattern="stack" type="PLAIN_TEXT" />
@@ -42,6 +42,7 @@
       <mapping pattern="linked-list" type="PLAIN_TEXT" />
       <mapping pattern="trie" type="PLAIN_TEXT" />
       <mapping pattern="get-product" type="PLAIN_TEXT" />
+      <mapping pattern=".analysis_options" type="YAML" />
       <mapping pattern="lists" type="Python" />
     </extensionMap>
   </component>
