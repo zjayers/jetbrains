@@ -1,21 +1,18 @@
 <keymap version="1" name="VSCode (macOS) copy" parent="VSCode OSX">
-  <action id="ActivateCommitToolWindow" />
-  <action id="CollapseRegion">
-    <keyboard-shortcut first-keystroke="meta alt open_bracket" />
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
-  <action id="FileChooser.NewFolder">
-    <keyboard-shortcut first-keystroke="shift meta n" />
-  </action>
-  <action id="FocusEditor">
-    <keyboard-shortcut first-keystroke="escape" />
-    <keyboard-shortcut first-keystroke="meta minus" />
-  </action>
-  <action id="Generate" />
-  <action id="NewScratchFile" />
   <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="meta f2" />
+    <keyboard-shortcut first-keystroke="ctrl meta g" />
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
-  <action id="SelectInProjectView">
-    <keyboard-shortcut first-keystroke="meta 0" />
+  <action id="SurroundWithEmmet">
+    <keyboard-shortcut first-keystroke="meta e" />
+  </action>
+  <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
 </keymap>
