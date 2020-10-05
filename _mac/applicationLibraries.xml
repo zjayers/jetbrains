@@ -19,6 +19,10 @@
       <CLASSES />
       <SOURCES />
     </library>
+    <library name="@types/react-native" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
     <library name="@types/react-redux" type="javaScript">
       <CLASSES />
       <SOURCES />
