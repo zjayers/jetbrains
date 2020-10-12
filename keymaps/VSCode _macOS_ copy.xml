@@ -1,10 +1,25 @@
 <keymap version="1" name="VSCode (macOS) copy" parent="VSCode OSX">
+  <action id="DecrementWindowHeight" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="shift ctrl meta right" />
+    <keyboard-shortcut first-keystroke="shift meta up" />
+  </action>
   <action id="EditorToggleUseSoftWraps">
     <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="shift ctrl meta left" />
+    <keyboard-shortcut first-keystroke="shift meta down" />
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
+  <action id="IncrementWindowHeight" />
+  <action id="MoveStatementDown" />
+  <action id="MoveStatementUp" />
+  <action id="ResetColumnsWidth" />
+  <action id="ResizeToolWindowDown" />
+  <action id="ResizeToolWindowUp" />
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="meta f2" />
     <keyboard-shortcut first-keystroke="ctrl meta g" />
