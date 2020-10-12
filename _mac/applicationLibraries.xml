@@ -19,11 +19,19 @@
       <CLASSES />
       <SOURCES />
     </library>
+    <library name="@types/react-native" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
     <library name="@types/react-redux" type="javaScript">
       <CLASSES />
       <SOURCES />
     </library>
     <library name="@types/window-or-global" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/yup" type="javaScript">
       <CLASSES />
       <SOURCES />
     </library>

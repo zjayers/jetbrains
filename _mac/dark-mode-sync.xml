@@ -1,0 +1,6 @@
+<application>
+  <component name="DarkModeSync">
+    <option name="darkName" value="Material Deep Ocean" />
+    <option name="lightName" value="Light Owl" />
+  </component>
+</application>
