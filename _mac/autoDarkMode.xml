@@ -13,6 +13,11 @@
           <option name="value" value="true" />
         </Entry>
         <Entry>
+          <option name="groupIdentifier" value="__root__group__" />
+          <option name="name" value="__settings__version__" />
+          <option name="value" value="1" />
+        </Entry>
+        <Entry>
           <option name="groupIdentifier" value="general_settings:Editor Theme:group_0" />
           <option name="name" value="lightCodeScheme" />
           <option name="value" value="_@user_Rider Light" />
