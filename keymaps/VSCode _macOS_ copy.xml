@@ -31,6 +31,7 @@
   <action id="List-selectLastRow" />
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
+  <action id="NextSplitter" />
   <action id="ReSharperGotoNextErrorInSolution">
     <keyboard-shortcut first-keystroke="alt f2" />
     <keyboard-shortcut first-keystroke="meta down" />
@@ -49,6 +50,12 @@
   </action>
   <action id="SurroundWithEmmet">
     <keyboard-shortcut first-keystroke="meta e" />
+  </action>
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+    <keyboard-shortcut first-keystroke="alt tab" />
+    <keyboard-shortcut first-keystroke="meta numpad0" />
   </action>
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
