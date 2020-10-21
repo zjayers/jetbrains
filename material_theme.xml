@@ -10,8 +10,10 @@
     <option name="isCustomTreeIndentEnabled" value="true" />
     <option name="isWizardShown" value="true" />
     <option name="pristineConfig" value="false" />
+    <option name="treeFontSizeEnabled" value="true" />
+    <option name="useMaterialFont2" value="true" />
     <option name="indicatorStyle" value="Dot" />
-    <option name="settingsSelectedTab" value="2" />
+    <option name="settingsSelectedTab" value="4" />
     <option name="accentColor" value="84ffff" />
     <option name="selectedTheme" value="DEEPOCEAN" />
     <option name="userId" value="6628049c:17404577999:-8000" />
