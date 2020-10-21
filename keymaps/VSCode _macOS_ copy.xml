@@ -7,6 +7,14 @@
     <keyboard-shortcut first-keystroke="meta alt open_bracket" />
   </action>
   <action id="DecrementWindowHeight" />
+  <action id="EditorPageDown">
+    <keyboard-shortcut first-keystroke="page_down" />
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="EditorPageUp">
+    <keyboard-shortcut first-keystroke="page_up" />
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="shift ctrl meta right" />
     <keyboard-shortcut first-keystroke="shift meta up" />
