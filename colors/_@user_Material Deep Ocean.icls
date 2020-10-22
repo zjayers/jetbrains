@@ -4,7 +4,7 @@
     <property name="created">2020-07-14T17:31:54</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2020.1.3.0.0</property>
-    <property name="modified">2020-10-21T17:10:05</property>
+    <property name="modified">2020-10-22T09:20:23</property>
     <property name="originalScheme">Material Deep Ocean</property>
     <property name="rainbow Python">true</property>
   </metaInfo>
@@ -1253,8 +1253,10 @@
     </option>
     <option name="JS.MODULE_NAME">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="2fe890" />
+        <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_COLOR" value="2fe890" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="JS.NULL_UNDEFINED">
@@ -3681,8 +3683,10 @@
     </option>
     <option name="TS.MODULE_NAME">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="2fe890" />
         <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_COLOR" value="2fe890" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="TS.TYPE_GUARD">
