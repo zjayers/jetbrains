@@ -3,8 +3,10 @@
     <blacklists>
       <blacklist language="JavaScript">
         <added pattern="Chai.Assert.equal(actual,expected,message)" />
+        <added pattern="React.useReducer(reducer,initializerArg,initializer)" />
       </blacklist>
     </blacklists>
+    <option id="js.param.hints.show.names.for.all.args" value="true" />
     <option id="js.only.show.names.for.all.args" value="true" />
   </component>
 </application>
