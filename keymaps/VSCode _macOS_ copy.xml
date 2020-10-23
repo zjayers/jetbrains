@@ -10,6 +10,11 @@
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="meta alt open_bracket" />
   </action>
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift alt a" />
+    <keyboard-shortcut first-keystroke="shift meta slash" />
+    <keyboard-shortcut first-keystroke="alt slash" />
+  </action>
   <action id="DecrementWindowHeight" />
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="page_down" />
@@ -50,6 +55,7 @@
     <keyboard-shortcut first-keystroke="shift meta p" />
     <keyboard-shortcut first-keystroke="shift meta a" />
   </action>
+  <action id="HippieCompletion" />
   <action id="IncrementWindowHeight" />
   <action id="List-selectLastRow" />
   <action id="MoveStatementDown" />
