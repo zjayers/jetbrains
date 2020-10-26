@@ -2,7 +2,6 @@
   <component name="CodeFoldingSettings">
     <option name="COLLAPSE_IMPORTS" value="false" />
     <option name="COLLAPSE_DOC_COMMENTS" value="true" />
-    <option name="COLLAPSE_CUSTOM_FOLDING_REGIONS" value="true" />
   </component>
   <component name="CodeInsightSettings">
     <option name="PARAMETER_INFO_DELAY" value="10" />
@@ -51,10 +50,6 @@
   </component>
   <component name="InlayHintsSettings">
     <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
-  </component>
-  <component name="JSCodeFoldingSettings">
-    <option name="collapseXmlLiterals" value="true" />
-    <option name="COLLAPSE_XML_LITERALS" value="true" />
   </component>
   <component name="JSEditorOptions">
     <option name="START_STRING_INTERPOLATION_ON_TYPING" value="true" />
