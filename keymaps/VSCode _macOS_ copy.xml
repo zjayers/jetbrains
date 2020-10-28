@@ -11,11 +11,6 @@
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta w" />
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
-  <action id="CollapseAllRegions">
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 0" />
-    <keyboard-shortcut first-keystroke="shift meta period" />
-  </action>
-  <action id="CollapseBlock" />
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="meta alt open_bracket" />
   </action>
