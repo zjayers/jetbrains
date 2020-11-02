@@ -31,6 +31,10 @@
       <CLASSES />
       <SOURCES />
     </library>
+    <library name="@types/react-router-dom" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
     <library name="@types/window-or-global" type="javaScript">
       <CLASSES />
       <SOURCES />
