@@ -4,7 +4,7 @@
     <property name="created">2020-07-14T17:31:54</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2020.1.3.0.0</property>
-    <property name="modified">2020-11-04T13:51:14</property>
+    <property name="modified">2020-11-04T14:24:59</property>
     <property name="originalScheme">Material Deep Ocean</property>
     <property name="rainbow Python">true</property>
   </metaInfo>
@@ -442,11 +442,6 @@
     <option name="DART_CLASS">
       <value>
         <option name="FOREGROUND" value="2fe890" />
-      </value>
-    </option>
-    <option name="DART_CONSTRUCTOR">
-      <value>
-        <option name="FOREGROUND" value="ed7b82" />
       </value>
     </option>
     <option name="DART_FAT_ARROW">

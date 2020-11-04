@@ -1,0 +1,6 @@
+<keymap version="1" name="VSCode copy" parent="VSCode">
+  <action id="QuickJavaDoc">
+    <mouse-shortcut keystroke="control button2" />
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+</keymap>
