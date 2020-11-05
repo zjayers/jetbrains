@@ -1,11 +1,16 @@
 <scheme name="_@user_Visual Studio Light" version="142" parent_scheme="Default">
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2020-11-05T09:06:12</property>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">4.1.0.19</property>
-    <property name="modified">2020-11-05T16:19:28</property>
+    <property name="modified">2020-11-05T16:19:55</property>
     <property name="originalScheme">Visual Studio Light</property>
   </metaInfo>
+  <option name="LINE_SPACING" value="1.2" />
+  <option name="EDITOR_FONT_SIZE" value="14" />
+  <option name="EDITOR_FONT_NAME" value="Fira Mono for Powerline" />
+  <option name="EDITOR_LIGATURES" value="true" />
   <colors>
     <option name="CARET_COLOR" value="404040" />
     <option name="CARET_ROW_COLOR" value="f0f0f0" />
