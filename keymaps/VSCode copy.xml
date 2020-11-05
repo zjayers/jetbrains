@@ -1,12 +1,22 @@
 <keymap version="1" name="VSCode copy" parent="VSCode">
+  <action id="Android.CleanRun" />
+  <action id="Github.PullRequest.Details.Reload" />
+  <action id="Github.PullRequest.Timeline.Update" />
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="control button2" />
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="Refresh" />
+  <action id="Vcs.Log.Refresh" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl meta e" />
   </action>
   <action id="android.deploy.CodeSwap">
     <keyboard-shortcut first-keystroke="shift ctrl meta e" />
   </action>
+  <action id="hg4idea.QRefresh" />
 </keymap>
