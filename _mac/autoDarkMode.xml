@@ -20,12 +20,12 @@
         <Entry>
           <option name="groupIdentifier" value="general_settings:Editor Theme:group_0" />
           <option name="name" value="lightCodeScheme" />
-          <option name="value" value="_@user_Rider Light" />
+          <option name="value" value="_@user_Visual Studio Light" />
         </Entry>
         <Entry>
           <option name="groupIdentifier" value="general_settings:Editor Theme:group_0" />
           <option name="name" value="highContrastCodeScheme" />
-          <option name="value" value="_@user_High contrast" />
+          <option name="value" value="_@user_High сontrast" />
         </Entry>
         <Entry>
           <option name="groupIdentifier" value="general_settings:IDE Theme:group_0" />
@@ -45,7 +45,7 @@
         <Entry>
           <option name="groupIdentifier" value="general_settings:IDE Theme:group_0" />
           <option name="name" value="lightTheme" />
-          <option name="value" value="com.intellij.ide.ui.laf.IntelliJLaf Rider Light" />
+          <option name="value" value="com.intellij.ide.ui.laf.IntelliJLaf Visual Studio Light" />
         </Entry>
         <Entry>
           <option name="groupIdentifier" value="general_settings:IDE Theme:group_0" />
