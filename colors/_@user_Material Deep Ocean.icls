@@ -4,7 +4,7 @@
     <property name="created">2020-07-14T17:31:54</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2020.1.3.0.0</property>
-    <property name="modified">2020-11-05T16:21:32</property>
+    <property name="modified">2020-11-06T09:49:23</property>
     <property name="originalScheme">Material Deep Ocean</property>
     <property name="rainbow Python">true</property>
   </metaInfo>
@@ -450,6 +450,11 @@
       </value>
     </option>
     <option name="DART_TOP_LEVEL_GETTER_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="ed7b82" />
+      </value>
+    </option>
+    <option name="DART_TOP_LEVEL_VARIABLE_DECLARATION">
       <value>
         <option name="FOREGROUND" value="ed7b82" />
       </value>
