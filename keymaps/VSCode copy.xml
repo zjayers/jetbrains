@@ -2,6 +2,9 @@
   <action id="Android.CleanRun" />
   <action id="Github.PullRequest.Details.Reload" />
   <action id="Github.PullRequest.Timeline.Update" />
+  <action id="IntroduceActionsGroup">
+    <keyboard-shortcut first-keystroke="meta e" />
+  </action>
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="control button2" />
     <keyboard-shortcut first-keystroke="alt d" />
@@ -11,7 +14,12 @@
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
   <action id="Refresh" />
+  <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="Vcs.Log.Refresh" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl meta e" />
   </action>
