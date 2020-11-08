@@ -1,4 +1,9 @@
 <keymap version="1" name="Workspace" parent="VSCode">
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+    <keyboard-shortcut first-keystroke="alt back_space" />
+    <keyboard-shortcut first-keystroke="meta z" />
+  </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="shift meta e" />
     <keyboard-shortcut first-keystroke="meta f1" />
@@ -9,6 +14,9 @@
   <action id="Android.CleanRun" />
   <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
   <action id="DecrementWindowHeight" />
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="meta z" />
+  </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorPageDown" />
