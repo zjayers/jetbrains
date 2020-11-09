@@ -19,6 +19,10 @@
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
+  <action id="Github.PullRequest.Changes.Reload" />
+  <action id="Github.PullRequest.Comments.Reload" />
+  <action id="Github.PullRequest.Details.Reload" />
+  <action id="Github.PullRequest.Timeline.Update" />
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta p" />
     <keyboard-shortcut first-keystroke="shift meta a" />
@@ -36,6 +40,12 @@
   </action>
   <action id="MethodDown" />
   <action id="MethodUp" />
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="Refresh" />
+  <action id="Rerun" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
@@ -46,8 +56,11 @@
   </action>
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
+  <action id="Vcs.Log.Refresh" />
+  <action id="Vcs.RefreshFileHistory" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
+  <action id="hg4idea.QRefresh" />
   <action id="learn.next.lesson" />
 </keymap>
