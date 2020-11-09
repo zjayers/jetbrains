@@ -4,7 +4,7 @@
     <property name="created">2020-07-14T17:31:54</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2020.1.3.0.0</property>
-    <property name="modified">2020-11-08T12:06:14</property>
+    <property name="modified">2020-11-09T10:28:25</property>
     <property name="originalScheme">Material Deep Ocean</property>
     <property name="rainbow Python">true</property>
   </metaInfo>
@@ -1255,6 +1255,7 @@
         <option name="FOREGROUND" value="f78c6c" />
       </value>
     </option>
+    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="JS.GLOBAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="2fe890" />
