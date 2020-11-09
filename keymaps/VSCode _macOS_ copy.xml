@@ -19,6 +19,7 @@
     <keyboard-shortcut first-keystroke="shift meta slash" />
     <keyboard-shortcut first-keystroke="alt slash" />
   </action>
+  <action id="DebugClass" />
   <action id="DecrementWindowHeight" />
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="page_down" />
@@ -83,6 +84,11 @@
   <action id="ResetColumnsWidth" />
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
+  <action id="RunDashboard.Debug" />
+  <action id="SearchAction">
+    <keyboard-shortcut first-keystroke="shift meta alt d" />
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="meta f2" />
     <keyboard-shortcut first-keystroke="ctrl meta g" />
@@ -93,6 +99,10 @@
     <keyboard-shortcut first-keystroke="f1" />
   </action>
   <action id="ShowErrorDescription" />
+  <action id="SmartSearchAction">
+    <keyboard-shortcut first-keystroke="shift meta d" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
   <action id="SurroundWithEmmet">
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
@@ -105,10 +115,17 @@
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="Table-selectLastRow" />
+  <action id="UsageGrouping.DirectoryStructure" />
   <action id="Vcs.Log.Refresh" />
   <action id="Vcs.RefreshFileHistory" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl meta e" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="shift ctrl meta e" />
   </action>
   <action id="hg4idea.QRefresh" />
 </keymap>

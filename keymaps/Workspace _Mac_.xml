@@ -1,0 +1,53 @@
+<keymap version="1" name="Workspace (Mac)" parent="VSCode OSX">
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
+  <action id="Debug" />
+  <action id="Diff.ApplyLeftSide" />
+  <action id="Diff.ApplyRightSide" />
+  <action id="Diff.NextChange">
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
+  </action>
+  <action id="Diff.PrevChange">
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
+  </action>
+  <action id="EditorLookupDown" />
+  <action id="EditorLookupUp" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+    <keyboard-shortcut first-keystroke="shift meta a" />
+  </action>
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="ctrl meta down" />
+  </action>
+  <action id="GotoPreviousError">
+    <keyboard-shortcut first-keystroke="ctrl meta up" />
+  </action>
+  <action id="GotoRelated" />
+  <action id="Graph.ApplyCurrentLayout" />
+  <action id="IntroduceActionsGroup">
+    <keyboard-shortcut first-keystroke="meta e" />
+  </action>
+  <action id="MethodDown" />
+  <action id="MethodUp" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
+  <action id="SelectAllOccurrences" />
+  <action id="ShowContent" />
+  <action id="ShowErrorDescription">
+    <keyboard-shortcut first-keystroke="meta numpad0" />
+  </action>
+  <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="learn.next.lesson" />
+</keymap>
