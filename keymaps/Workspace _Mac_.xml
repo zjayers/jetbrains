@@ -16,6 +16,9 @@
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
+  <action id="EditorToggleUseSoftWraps">
+    <keyboard-shortcut first-keystroke="f14" />
+  </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
