@@ -38,6 +38,10 @@
     <keyboard-shortcut first-keystroke="ctrl meta up" />
   </action>
   <action id="GotoRelated" />
+  <action id="GotoSymbol" />
+  <action id="GotoTest">
+    <keyboard-shortcut first-keystroke="meta numpad1" />
+  </action>
   <action id="Graph.ApplyCurrentLayout" />
   <action id="IntroduceActionsGroup">
     <keyboard-shortcut first-keystroke="meta e" />
