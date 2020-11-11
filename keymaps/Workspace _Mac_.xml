@@ -1,4 +1,5 @@
 <keymap version="1" name="Workspace (Mac)" parent="VSCode OSX">
+  <action id="ActivateDebugToolWindow" />
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
@@ -56,7 +57,9 @@
   <action id="Run">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
-  <action id="SelectAllOccurrences" />
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
   <action id="ShowContent" />
   <action id="ShowErrorDescription">
     <keyboard-shortcut first-keystroke="meta numpad0" />
@@ -70,6 +73,7 @@
     <keyboard-shortcut first-keystroke="meta alt u" />
     <keyboard-shortcut first-keystroke="f13" />
   </action>
+  <action id="SmartSearchAction" />
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="Vcs.Log.Refresh" />
