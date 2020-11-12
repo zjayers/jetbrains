@@ -3,6 +3,13 @@
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta w" />
+    <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="alt w" />
+  </action>
   <action id="Debug" />
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
