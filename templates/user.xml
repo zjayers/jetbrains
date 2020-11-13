@@ -13,7 +13,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ctor" value="constructor($PARAMS$) {}" toReformat="true" toShortenFQNames="true">
+  <template name="ctor" value="constructor($PARAMS$) {}" description="" toReformat="true" toShortenFQNames="true">
     <variable name="PARAMS" expression="" defaultValue=" " alwaysStopAt="true" />
     <context>
       <option name="ECMAScript6" value="true" />
