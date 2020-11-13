@@ -20,7 +20,7 @@
         <Entry>
           <option name="groupIdentifier" value="general_settings:Editor Theme:group_0" />
           <option name="name" value="lightCodeScheme" />
-          <option name="value" value="_@user_Rider Light" />
+          <option name="value" value="_@user_Solarized Light (4lex4)" />
         </Entry>
         <Entry>
           <option name="groupIdentifier" value="general_settings:Editor Theme:group_0" />
@@ -35,7 +35,7 @@
         <Entry>
           <option name="groupIdentifier" value="general_settings:Other" />
           <option name="name" value="checkHighContrast" />
-          <option name="value" value="true" />
+          <option name="value" value="false" />
         </Entry>
         <Entry>
           <option name="groupIdentifier" value="general_settings:IDE Theme" />
@@ -45,7 +45,7 @@
         <Entry>
           <option name="groupIdentifier" value="general_settings:IDE Theme:group_0" />
           <option name="name" value="lightTheme" />
-          <option name="value" value="com.intellij.ide.ui.laf.IntelliJLaf Rider Light" />
+          <option name="value" value="com.intellij.ide.ui.laf.IntelliJLaf Solarized Light" />
         </Entry>
         <Entry>
           <option name="groupIdentifier" value="general_settings:IDE Theme:group_0" />

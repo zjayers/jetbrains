@@ -1,6 +1,7 @@
 <application>
   <component name="GeneralSettings">
     <option name="autoSaveIfInactive" value="true" />
+    <option name="confirmExit" value="false" />
     <option name="defaultProjectDirectory" value="$USER_HOME$/Workspace" />
     <option name="processCloseConfirmation" value="TERMINATE" />
     <option name="reopenLastProject" value="false" />
@@ -21,7 +22,7 @@
     <entry key="ide.svg.icon" value="true" />
     <entry key="ide.win.frame.decoration" value="true" />
     <entry key="ide.tooltip.showAllSeverities" value="true" />
-    <entry key="rider.enable.designer.winForms" value="true" />
+    <entry key="rider.enable.designer.winForms" value="false" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
@@ -31,6 +32,7 @@
         <entry key="Memory" value="true" />
         <entry key="Notifications" value="false" />
         <entry key="ReadOnlyAttribute" value="false" />
+        <entry key="RoslynIcon" value="false" />
         <entry key="cn.yiiguxing.plugin.translate.ui.TranslatorWidget" value="false" />
         <entry key="com.codota.intellij.common.notifier.CodotaStatusWidget" value="false" />
         <entry key="mtStatusBar" value="false" />
