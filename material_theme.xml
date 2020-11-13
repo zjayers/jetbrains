@@ -12,10 +12,12 @@
     <option name="pristineConfig" value="false" />
     <option name="treeFontSizeEnabled" value="true" />
     <option name="useMaterialFont2" value="true" />
-    <option name="indicatorStyle" value="Dot" />
-    <option name="settingsSelectedTab" value="4" />
-    <option name="accentColor" value="559ce2" />
-    <option name="selectedTheme" value="NATIVE" />
+    <option name="leftTreeIndent" value="2" />
+    <option name="rightTreeIndent" value="2" />
+    <option name="settingsSelectedTab" value="2" />
+    <option name="accentColor" value="84ffff" />
+    <option name="highlightColor" value="beb89a" />
+    <option name="selectedTheme" value="DEEPOCEAN" />
     <option name="userId" value="6628049c:17404577999:-8000" />
     <option name="version" value="5.2.0" />
   </component>

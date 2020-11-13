@@ -20,12 +20,12 @@
         <Entry>
           <option name="groupIdentifier" value="general_settings:Editor Theme:group_0" />
           <option name="name" value="lightCodeScheme" />
-          <option name="value" value="_@user_Solarized Dark (4lex4)" />
+          <option name="value" value="_@user_Solarized Light (4lex4)" />
         </Entry>
         <Entry>
           <option name="groupIdentifier" value="general_settings:Editor Theme:group_0" />
           <option name="name" value="highContrastCodeScheme" />
-          <option name="value" value="_@user_High сontrast" />
+          <option name="value" value="_@user_High contrast" />
         </Entry>
         <Entry>
           <option name="groupIdentifier" value="general_settings:IDE Theme:group_0" />
@@ -35,7 +35,7 @@
         <Entry>
           <option name="groupIdentifier" value="general_settings:Other" />
           <option name="name" value="checkHighContrast" />
-          <option name="value" value="true" />
+          <option name="value" value="false" />
         </Entry>
         <Entry>
           <option name="groupIdentifier" value="general_settings:IDE Theme" />
