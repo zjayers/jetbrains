@@ -30,6 +30,10 @@
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="alt f7" />
+    <keyboard-shortcut first-keystroke="meta numpad2" />
+  </action>
   <action id="Github.PullRequest.Changes.Reload" />
   <action id="Github.PullRequest.Comments.Reload" />
   <action id="Github.PullRequest.Details.Reload" />
