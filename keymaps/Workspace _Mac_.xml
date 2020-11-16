@@ -57,11 +57,14 @@
   <action id="GotoRelated" />
   <action id="GotoSymbol" />
   <action id="GotoTest">
-    <keyboard-shortcut first-keystroke="meta numpad1" />
+    <keyboard-shortcut first-keystroke="meta t" />
   </action>
   <action id="Graph.ApplyCurrentLayout" />
   <action id="IntroduceActionsGroup">
     <keyboard-shortcut first-keystroke="meta e" />
+  </action>
+  <action id="JavaScript.Debugger.ReloadInBrowser">
+    <keyboard-shortcut first-keystroke="meta numpad3" />
   </action>
   <action id="MethodDown" />
   <action id="MethodUp" />
@@ -110,6 +113,13 @@
     <keyboard-shortcut first-keystroke="f13" />
   </action>
   <action id="SmartSearchAction" />
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="meta alt t" />
+    <keyboard-shortcut first-keystroke="meta numpad1" />
+  </action>
+  <action id="SurroundWithEmmet">
+    <keyboard-shortcut first-keystroke="alt numpad3" />
+  </action>
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="Vcs.Log.GoToRef" />
