@@ -1,0 +1,21 @@
+<application>
+  <component name="GraziConfig">
+    <option name="enabledGrammarStrategies">
+      <set>
+        <option value="JavaScript:JavaScript" />
+        <option value="nl.rubensten.texifyidea:Latex" />
+        <option value="org.asciidoctor.intellij.asciidoc:AsciiDoc" />
+        <option value="tanvd.grazi:JSON" />
+        <option value="tanvd.grazi:TEXT" />
+        <option value="tanvd.grazi:XML" />
+        <option value="tanvd.grazi:yaml" />
+      </set>
+    </option>
+    <option name="checkingContext">
+      <CheckingContext>
+        <option name="isCheckInCommitMessagesEnabled" value="true" />
+        <option name="isCheckInStringLiteralsEnabled" value="true" />
+      </CheckingContext>
+    </option>
+  </component>
+</application>
