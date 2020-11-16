@@ -1,17 +1,38 @@
 <templateSet group="Nextjs">
-  <template name="sprops" value="export async function getStaticProps(context) {&#10;  return {&#10;    props: {},&#10;  };&#10;}" description="getStaticProps" toReformat="true" toShortenFQNames="true">
+  <template name="sprops" value="// This function gets called at build time on server-side.&#10;export async function getStaticProps(context) {&#10;&#10;  // Fetch data from the API endpoint&#10;  const { data: $ITEMS$ } = await axios.get('$ROUTE$')&#10;  &#10;  // By returning { props: $ITEMS$ }, the component&#10;  // will receive `$ITEMS$` as a prop at build time&#10;  return {&#10;    props: {&#10;        $ITEMS$,&#10;    },&#10;  };&#10;}" description="getStaticProps" toReformat="true" toShortenFQNames="true">
+    <variable name="ITEMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ROUTE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ssprops" value="export async function getServerSideProps(context) {&#10;  return {&#10;    props: {},&#10;  };&#10;}" description="getServerSideProps" toReformat="true" toShortenFQNames="true">
+  <template name="ssprops" value="// This function will be called on every request&#10;export async function getServerSideProps(context) {&#10;&#10;  // Fetch data from the API endpoint &#10;  const { data: $ITEMS$ } = await axios.get('$ROUTE$')&#10;&#10;  // By returning { props: $ITEMS$ }, the component&#10;  // will receive `$ITEMS$` as a prop at build time&#10;  return {&#10;    props: {&#10;        $ITEMS$&#10;    },&#10;  };&#10;}" description="getServerSideProps" toReformat="true" toShortenFQNames="true">
+    <variable name="ITEMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ROUTE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="spaths" value="export async function getStaticPaths() {&#10;  return {&#10;    paths: [&#10;      { params: {} }, // See the &quot;paths&quot; section below&#10;    ],&#10;    fallback: false, // See the &quot;fallback&quot; section below&#10;  };&#10;}" description="getStaticPaths" toReformat="true" toShortenFQNames="true">
+  <template name="spaths" value="export async function getStaticPaths() {&#10;&#10;  // Fetch data from the API endpoint &#10;  const { data: $ITEMS$ } = await axios.get('$ROUTE$')&#10;  &#10;  // Get the paths we want to pre-render&#10;  const paths = $ITEMS$.map((item) =&gt; ({&#10;    params: { id: item.id },&#10;  }))&#10;&#10;  // Pre-render only these paths at build time.&#10;  // { fallback: false } means other routes should 404.&#10;  return { paths, fallback: false }&#10;}" description="getStaticPaths" toReformat="true" toShortenFQNames="true">
+    <variable name="ITEMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ROUTE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="swr" value="const { data: $ITEMS$, error, isValidating, mutate } = useSWR('$ROUTE$', $FETCHERFN$, $OPTIONS$)" description="useSWR" toReformat="true" toShortenFQNames="true">
+    <variable name="ITEMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ROUTE" expression="" defaultValue="/" alwaysStopAt="true" />
+    <variable name="FETCHERFN" expression="" defaultValue="fetcherFn" alwaysStopAt="true" />
+    <variable name="OPTIONS" expression="" defaultValue="options" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="swrConfig" value="&lt;SWRConfig&#10;      value={{&#10;        refreshInterval: 1000,&#10;        fetcher: (...args) =&gt; axios.get(...args).then(res =&gt; res.data)&#10;      }}&#10;    &gt;&#10;      $CHILDREN$&#10;&lt;/SWRConfig&gt;" description="SWRConfig" toReformat="true" toShortenFQNames="true">
+    <variable name="CHILDREN" expression="" defaultValue="&lt;div&gt;&lt;/div&gt;" alwaysStopAt="true" />
+    <context>
+      <option name="JSX_HTML" value="true" />
     </context>
   </template>
 </templateSet>
