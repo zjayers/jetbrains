@@ -1,0 +1,17 @@
+<templateSet group="Nextjs">
+  <template name="sprops" value="export async function getStaticProps(context) {&#10;  return {&#10;    props: {},&#10;  };&#10;}" description="getStaticProps" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ssprops" value="export async function getServerSideProps(context) {&#10;  return {&#10;    props: {},&#10;  };&#10;}" description="getServerSideProps" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="spaths" value="export async function getStaticPaths() {&#10;  return {&#10;    paths: [&#10;      { params: {} }, // See the &quot;paths&quot; section below&#10;    ],&#10;    fallback: false, // See the &quot;fallback&quot; section below&#10;  };&#10;}" description="getStaticPaths" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
