@@ -1,0 +1,14 @@
+<templateSet group="GraphQL">
+  <template name="rsv" value="$TYPE$(parent, args, ctx, info) {$CONTENT$}," description="GraphQL Resolver" toReformat="true" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_CLASS" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="JS_TOP_LEVEL_STATEMENT" value="false" />
+    </context>
+  </template>
+</templateSet>

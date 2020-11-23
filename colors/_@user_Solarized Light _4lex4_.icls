@@ -4,7 +4,7 @@
     <property name="created">2020-11-10T10:35:31</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2020.2.3.0.0</property>
-    <property name="modified">2020-11-23T07:24:14</property>
+    <property name="modified">2020-11-23T09:07:39</property>
     <property name="originalScheme">Solarized Light (4lex4)</property>
   </metaInfo>
   <console-font>
@@ -13,7 +13,7 @@
   </console-font>
   <console-font>
     <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
-    <option name="EDITOR_FONT_SIZE" value="14" />
+    <option name="EDITOR_FONT_SIZE" value="12" />
   </console-font>
   <option name="CONSOLE_LIGATURES" value="true" />
   <option name="CONSOLE_LINE_SPACING" value="1.2" />
