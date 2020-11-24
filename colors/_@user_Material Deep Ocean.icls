@@ -3,7 +3,7 @@
     <property name="created">2020-07-14T17:31:54</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2020.1.3.0.0</property>
-    <property name="modified">2020-11-24T16:52:37</property>
+    <property name="modified">2020-11-24T17:04:28</property>
     <property name="originalScheme">Material Deep Ocean</property>
     <property name="rainbow Python">true</property>
   </metaInfo>
@@ -1497,7 +1497,7 @@
     </option>
     <option name="MAGIC_MEMBER_ACCESS">
       <value>
-        <option name="FOREGROUND" value="ed7b82" />
+        <option name="FOREGROUND" value="82aaff" />
       </value>
     </option>
     <option name="MARKDOWN.AUTO_LINK">
@@ -2933,11 +2933,6 @@
       <value>
         <option name="FOREGROUND" value="c792ea" />
         <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="PHP_IDENTIFIER">
-      <value>
-        <option name="FOREGROUND" value="ffcb6b" />
       </value>
     </option>
     <option name="PHP_INSTANCE_METHOD">
