@@ -21,7 +21,7 @@
     <entry key="ide.svg.icon" value="true" />
     <entry key="ide.win.frame.decoration" value="true" />
     <entry key="ide.tooltip.showAllSeverities" value="true" />
-    <entry key="rider.enable.designer.winForms" value="false" />
+    <entry key="rider.enable.designer.winForms" value="true" />
     <entry key="external.system.auto.import.disabled" value="true" />
   </component>
   <component name="StatusBar">
