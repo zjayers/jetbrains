@@ -2,12 +2,23 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*$py.class;*.hprof;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
     <extensionMap>
+      <removed_mapping pattern=".eslintignore" type="ESLint file" />
       <mapping ext="webp" type="Image" />
+      <removed_mapping pattern=".jshintignore" type="JSHint file" />
+      <mapping pattern=".eslintrc" type="JSON" />
+      <mapping pattern="jest.config" type="JSON" />
+      <mapping pattern="bowerrc" type="JSON" />
+      <mapping pattern=".stylelintrc" type="JSON" />
+      <mapping pattern=".babelrc" type="JSON" />
+      <mapping ext="jsb3" type="JSON" />
+      <mapping ext="jsb2" type="JSON" />
+      <removed_mapping pattern=".npmignore" type="Npm file" />
       <mapping pattern="to-english-string" type="PLAIN_TEXT" />
+      <mapping pattern=".stylelintignore" type="PLAIN_TEXT" />
       <mapping pattern="hash-table" type="PLAIN_TEXT" />
       <mapping pattern="to-title-case" type="PLAIN_TEXT" />
-      <mapping pattern="two-sum-e-e" type="PLAIN_TEXT" />
       <mapping pattern="min-heap" type="PLAIN_TEXT" />
+      <mapping pattern="two-sum-e-e" type="PLAIN_TEXT" />
       <mapping pattern="get-range" type="PLAIN_TEXT" />
       <mapping pattern="graph" type="PLAIN_TEXT" />
       <mapping pattern="weak-set" type="PLAIN_TEXT" />
@@ -16,16 +27,21 @@
       <mapping pattern="two-sum-e" type="PLAIN_TEXT" />
       <mapping pattern="get-max-value" type="PLAIN_TEXT" />
       <mapping pattern="split" type="PLAIN_TEXT" />
+      <mapping pattern=".yarnrc" type="PLAIN_TEXT" />
       <mapping pattern="to-power" type="PLAIN_TEXT" />
+      <mapping pattern=".npmignore" type="PLAIN_TEXT" />
       <mapping pattern="priority-queue" type="PLAIN_TEXT" />
+      <mapping pattern=".npmrc" type="PLAIN_TEXT" />
       <mapping pattern="has-same-digits" type="PLAIN_TEXT" />
       <mapping pattern="is-palindrome" type="PLAIN_TEXT" />
       <mapping pattern="to-snake-case" type="PLAIN_TEXT" />
       <mapping pattern=".pylintrc" type="PLAIN_TEXT" />
+      <mapping pattern=".node-version" type="PLAIN_TEXT" />
       <mapping pattern="tuple" type="PLAIN_TEXT" />
       <mapping pattern="flatten" type="PLAIN_TEXT" />
       <mapping pattern="to-capital-case" type="PLAIN_TEXT" />
       <mapping pattern="set" type="PLAIN_TEXT" />
+      <mapping pattern=".eslintignore" type="PLAIN_TEXT" />
       <mapping pattern="queue" type="PLAIN_TEXT" />
       <mapping pattern="node" type="PLAIN_TEXT" />
       <mapping pattern="weak-map" type="PLAIN_TEXT" />
@@ -33,8 +49,10 @@
       <mapping pattern="merge" type="PLAIN_TEXT" />
       <mapping pattern="map" type="PLAIN_TEXT" />
       <mapping pattern="binary-search-tree" type="PLAIN_TEXT" />
+      <mapping pattern=".jshintignore" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="directed-graph" type="PLAIN_TEXT" />
+      <mapping pattern=".nvmrc" type="PLAIN_TEXT" />
       <mapping pattern="stack" type="PLAIN_TEXT" />
       <mapping pattern="to-pascal-case" type="PLAIN_TEXT" />
       <mapping pattern="max-heap" type="PLAIN_TEXT" />
@@ -44,6 +62,7 @@
       <mapping pattern="linked-list" type="PLAIN_TEXT" />
       <mapping pattern="trie" type="PLAIN_TEXT" />
       <mapping pattern="get-product" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".stylelintignore" type="StyleLint file" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="lists" type="Python" />
