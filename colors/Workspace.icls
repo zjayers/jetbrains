@@ -3,7 +3,7 @@
     <property name="created">2020-06-13T10:48:43</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2020.1.2.0.0</property>
-    <property name="modified">2020-12-03T13:29:54</property>
+    <property name="modified">2020-12-03T14:06:20</property>
     <property name="originalScheme">Material Deep Ocean copy1</property>
   </metaInfo>
   <colors>
@@ -3715,7 +3715,6 @@
     <option name="XML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="f97670" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="XPATH.KEYWORD">
