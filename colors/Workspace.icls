@@ -1,11 +1,22 @@
 <scheme name="Workspace" version="142" parent_scheme="Darcula">
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2020-06-13T10:48:43</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2020.1.2.0.0</property>
-    <property name="modified">2020-12-03T14:06:20</property>
+    <property name="modified">2020-12-03T14:26:21</property>
     <property name="originalScheme">Material Deep Ocean copy1</property>
   </metaInfo>
+  <console-font>
+    <option name="EDITOR_FONT_NAME" value="Fira Code Retina" />
+    <option name="EDITOR_FONT_SIZE" value="12" />
+  </console-font>
+  <console-font>
+    <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
+    <option name="EDITOR_FONT_SIZE" value="12" />
+  </console-font>
+  <option name="CONSOLE_LIGATURES" value="true" />
+  <option name="CONSOLE_LINE_SPACING" value="1.2" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="143818" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
@@ -1219,6 +1230,16 @@
     <option name="JS.DEBUGGER_STMT">
       <value>
         <option name="FOREGROUND" value="f78c6c" />
+      </value>
+    </option>
+    <option name="JS.EXPORTED.CLASS">
+      <value>
+        <option name="FOREGROUND" value="ffcb6b" />
+      </value>
+    </option>
+    <option name="JS.EXPORTED.VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="ffcb6b" />
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
