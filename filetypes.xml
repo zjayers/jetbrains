@@ -1,8 +1,7 @@
 <application>
-  <component name="FileTypeManager" version="17">
-    <ignoreFiles list="*$py.class;*.hprof;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
+  <component name="FileTypeManager" version="18">
+    <ignoreFiles list="*$py.class;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
     <extensionMap>
-      <mapping ext="webp" type="Image" />
       <mapping pattern="to-english-string" type="PLAIN_TEXT" />
       <mapping pattern="hash-table" type="PLAIN_TEXT" />
       <mapping pattern="to-title-case" type="PLAIN_TEXT" />
