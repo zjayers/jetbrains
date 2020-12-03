@@ -23,8 +23,8 @@
       <mapping pattern=".pylintrc" type="PLAIN_TEXT" />
       <mapping pattern="tuple" type="PLAIN_TEXT" />
       <mapping pattern="flatten" type="PLAIN_TEXT" />
-      <mapping pattern="set" type="PLAIN_TEXT" />
       <mapping pattern="to-capital-case" type="PLAIN_TEXT" />
+      <mapping pattern="set" type="PLAIN_TEXT" />
       <mapping pattern="queue" type="PLAIN_TEXT" />
       <mapping pattern="node" type="PLAIN_TEXT" />
       <mapping pattern="weak-map" type="PLAIN_TEXT" />
@@ -43,6 +43,7 @@
       <mapping pattern="linked-list" type="PLAIN_TEXT" />
       <mapping pattern="trie" type="PLAIN_TEXT" />
       <mapping pattern="get-product" type="PLAIN_TEXT" />
+      <removed_mapping ext="tsv" approved="true" type="TSV" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="lists" type="Python" />
