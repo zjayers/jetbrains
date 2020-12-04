@@ -1,0 +1,19 @@
+<application>
+  <component name="GraziConfig">
+    <option name="suppressingContext">
+      <SuppressingContext>
+        <option name="suppressed">
+          <set>
+            <option value=".." />
+          </set>
+        </option>
+      </SuppressingContext>
+    </option>
+    <option name="checkingContext">
+      <CheckingContext>
+        <option name="isCheckInCommitMessagesEnabled" value="true" />
+        <option name="isCheckInStringLiteralsEnabled" value="true" />
+      </CheckingContext>
+    </option>
+  </component>
+</application>
