@@ -35,6 +35,7 @@
         <entry key="RoslynIcon" value="false" />
         <entry key="cn.yiiguxing.plugin.translate.ui.TranslatorWidget" value="false" />
         <entry key="com.codota.intellij.common.notifier.CodotaStatusWidget" value="false" />
+        <entry key="com.tabnine.lifecycle.TabNineStatusBarWidget" value="false" />
         <entry key="mtStatusBar" value="false" />
       </map>
     </option>
