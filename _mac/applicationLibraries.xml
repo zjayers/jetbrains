@@ -19,6 +19,10 @@
       <CLASSES />
       <SOURCES />
     </library>
+    <library name="@types/fs-extra" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
     <library name="@types/mongoose" type="javaScript">
       <CLASSES />
       <SOURCES />

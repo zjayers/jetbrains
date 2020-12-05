@@ -42,8 +42,8 @@
       <mapping pattern="tuple" type="PLAIN_TEXT" />
       <mapping pattern="get-product" type="PLAIN_TEXT" />
       <mapping pattern="flatten" type="PLAIN_TEXT" />
-      <mapping pattern="to-capital-case" type="PLAIN_TEXT" />
       <mapping pattern="set" type="PLAIN_TEXT" />
+      <mapping pattern="to-capital-case" type="PLAIN_TEXT" />
       <mapping pattern="queue" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="psd" approved="true" type="Image" />
