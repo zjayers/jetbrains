@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'spring.basics'" />
-    <option name="defaultScopeName" value="Project 'spring.basics'" />
+    <option name="customScope" value="Project 'java_mockito'" />
+    <option name="defaultScopeName" value="Project 'java_mockito'" />
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'spring.basics'" />
+    <option name="SEARCH_SCOPE" value="Project 'java_mockito'" />
   </component>
 </application>
