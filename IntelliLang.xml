@@ -1,0 +1,8 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="GenericSQL" injector-id="java">
+      <display-name>JdbcTemplate.query (org.springframework.jdbc.core)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("query").withParameters("java.lang.String", "org.springframework.jdbc.core.RowMapper").definedInClass("org.springframework.jdbc.core.JdbcTemplate"))]]></place>
+    </injection>
+  </component>
+</application>
