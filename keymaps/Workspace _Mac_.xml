@@ -73,8 +73,12 @@
   <action id="JavaScript.Debugger.ReloadInBrowser">
     <keyboard-shortcut first-keystroke="meta numpad3" />
   </action>
+  <action id="Maven.Reimport">
+    <keyboard-shortcut first-keystroke="meta m" />
+  </action>
   <action id="MethodDown" />
   <action id="MethodUp" />
+  <action id="MinimizeCurrentWindow" />
   <action id="NextSplitter" />
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="control button2" />
