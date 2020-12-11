@@ -38,6 +38,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.aj">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.aspectj" />
+              <option name="myPluginName" value="AspectJ" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.android_data_binding">
           <value>
             <plugin>
@@ -395,7 +404,6 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.lang.ejs" />
               <option name="myPluginName" value="EJS" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -871,7 +879,6 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.plugins.jade" />
               <option name="myPluginName" value="Pug (ex-Jade)" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -1678,7 +1685,6 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.plugins.jade" />
               <option name="myPluginName" value="Pug (ex-Jade)" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -2065,7 +2071,6 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.plugins.meteor" />
               <option name="myPluginName" value="Meteor" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -2375,7 +2380,6 @@
             <plugin>
               <option name="myPluginId" value="org.jetbrains.plugins.vue" />
               <option name="myPluginName" value="Vue.js" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -2773,6 +2777,15 @@
             </plugin>
           </value>
         </entry>
+        <entry key=".springBeans">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.idea.eclipse" />
+              <option name="myPluginName" value="Eclipse Interoperability" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key=".stylelintignore">
           <value>
             <plugin>
@@ -3124,6 +3137,24 @@
             </plugin>
           </value>
         </entry>
+        <entry key="spring.handlers">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.properties" />
+              <option name="myPluginName" value="Properties" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="spring.schemas">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.properties" />
+              <option name="myPluginName" value="Properties" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="tsconfig.app.json">
           <value>
             <plugin>
@@ -3437,6 +3468,11 @@
                       <FeaturePluginData displayName="Kotlin" pluginName="Kotlin" pluginId="org.jetbrains.kotlin" />
                     </value>
                   </entry>
+                  <entry key="KotlinJavaScriptTestRunnerProtractor">
+                    <value>
+                      <FeaturePluginData displayName="Protractor (Kotlin)" pluginName="org.jetbrains.kotlin" pluginId="org.jetbrains.kotlin" />
+                    </value>
+                  </entry>
                   <entry key="KotlinStandaloneScriptRunConfigurationType">
                     <value>
                       <FeaturePluginData displayName="Kotlin script" pluginName="Kotlin" pluginId="org.jetbrains.kotlin" />
@@ -3632,6 +3668,11 @@
                       <FeaturePluginData displayName="Spork DRb" pluginName="Ruby" pluginId="org.jetbrains.plugins.ruby" />
                     </value>
                   </entry>
+                  <entry key="SpringBootApplicationConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Spring Boot" pluginName="Spring Boot" pluginId="com.intellij.spring.boot" />
+                    </value>
+                  </entry>
                   <entry key="SwaggerCodegen">
                     <value>
                       <FeaturePluginData displayName="Swagger Codegen" pluginName="OpenAPI Specifications" pluginId="com.intellij.swagger" />
@@ -3742,6 +3783,11 @@
             <FeaturePluginsList>
               <option name="featureMap">
                 <map>
+                  <entry key="AspectJ">
+                    <value>
+                      <FeaturePluginData displayName="AspectJ" pluginName="AspectJ" pluginId="com.intellij.aspectj" />
+                    </value>
+                  </entry>
                   <entry key="JRUBY">
                     <value>
                       <FeaturePluginData displayName="JRuby" pluginName="org.jetbrains.plugins.ruby" pluginId="org.jetbrains.plugins.ruby" />
@@ -3760,6 +3806,11 @@
                   <entry key="RailsFacetType">
                     <value>
                       <FeaturePluginData displayName="Ruby on Rails" pluginName="Ruby" pluginId="org.jetbrains.plugins.ruby" />
+                    </value>
+                  </entry>
+                  <entry key="Spring">
+                    <value>
+                      <FeaturePluginData displayName="Spring" pluginName="Spring" pluginId="com.intellij.spring" />
                     </value>
                   </entry>
                   <entry key="android">
