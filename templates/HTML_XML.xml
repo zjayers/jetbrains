@@ -1,0 +1,8 @@
+<templateSet group="HTML/XML">
+  <template name="th" value="xmlns:th=&quot;http://www.thymeleaf.org&quot;" description="Thymeleaf import" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="HTML_TEXT" value="false" />
+    </context>
+  </template>
+</templateSet>
