@@ -1,0 +1,9 @@
+<templateSet group="Java">
+  <template name="prop" value="private $TYPE$ $NAME$;" description="private domain property" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
