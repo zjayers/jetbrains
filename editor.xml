@@ -21,8 +21,12 @@
     <option name="languageBreadcrumbsMap">
       <map>
         <entry key="CSS" value="true" />
+        <entry key="FTL" value="true" />
+        <entry key="Groovy" value="true" />
+        <entry key="HCL" value="true" />
         <entry key="HTML" value="true" />
         <entry key="Haml" value="true" />
+        <entry key="JAVA" value="true" />
         <entry key="JSON" value="true" />
         <entry key="JSP" value="true" />
         <entry key="JSPX" value="true" />
@@ -31,10 +35,14 @@
         <entry key="LESS" value="true" />
         <entry key="SASS" value="true" />
         <entry key="SCSS" value="true" />
+        <entry key="SQL" value="true" />
+        <entry key="Scala" value="true" />
         <entry key="Stylus" value="true" />
         <entry key="TypeScript" value="true" />
+        <entry key="VTL" value="true" />
         <entry key="XHTML" value="true" />
         <entry key="XML" value="true" />
+        <entry key="kotlin" value="false" />
         <entry key="yaml" value="true" />
       </map>
     </option>
