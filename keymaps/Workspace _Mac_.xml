@@ -277,6 +277,9 @@
   <action id="VcsGroups">
     <keyboard-shortcut first-keystroke="meta numpad4" />
   </action>
+  <action id="WindowMenu">
+    <keyboard-shortcut first-keystroke="meta numpad8" />
+  </action>
   <action id="ZeppelinRunAllBelowAction" />
   <action id="ZeppelinRunCellAction" />
   <action id="hg4idea.QRefresh" />
