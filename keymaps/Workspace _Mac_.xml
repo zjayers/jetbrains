@@ -191,6 +191,9 @@
   <action id="RunMenu">
     <keyboard-shortcut first-keystroke="meta numpad5" />
   </action>
+  <action id="Runner.RestoreLayout">
+    <keyboard-shortcut first-keystroke="meta home" />
+  </action>
   <action id="Scala.ExpandImplicits">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
