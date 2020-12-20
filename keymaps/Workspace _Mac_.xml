@@ -22,6 +22,13 @@
     <keyboard-shortcut first-keystroke="shift meta b" />
     <keyboard-shortcut first-keystroke="meta b" />
   </action>
+  <action id="Console.Jdbc.Execute">
+    <keyboard-shortcut first-keystroke="meta numpad7" />
+  </action>
+  <action id="Console.Open">
+    <keyboard-shortcut first-keystroke="shift meta f10" />
+    <keyboard-shortcut first-keystroke="meta numpad9" />
+  </action>
   <action id="Console.TableResult.EditValueMaximized">
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
