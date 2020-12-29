@@ -26,8 +26,8 @@
       <mapping pattern=".pylintrc" type="PLAIN_TEXT" />
       <mapping pattern="tuple" type="PLAIN_TEXT" />
       <mapping pattern="flatten" type="PLAIN_TEXT" />
-      <mapping pattern="set" type="PLAIN_TEXT" />
       <mapping pattern="to-capital-case" type="PLAIN_TEXT" />
+      <mapping pattern="set" type="PLAIN_TEXT" />
       <mapping pattern="queue" type="PLAIN_TEXT" />
       <mapping pattern="node" type="PLAIN_TEXT" />
       <mapping pattern="weak-map" type="PLAIN_TEXT" />
@@ -46,7 +46,7 @@
       <mapping pattern="linked-list" type="PLAIN_TEXT" />
       <mapping pattern="trie" type="PLAIN_TEXT" />
       <mapping pattern="get-product" type="PLAIN_TEXT" />
-      <removed_mapping pattern=".analysis_options" type="YAML" />
+      <mapping pattern=".analysis_options" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="psd" approved="true" type="Image" />
