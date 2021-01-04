@@ -3831,6 +3831,11 @@
                       <FeaturePluginData displayName="Micronaut" pluginName="Micronaut" pluginId="com.intellij.micronaut" />
                     </value>
                   </entry>
+                  <entry key="Multirun">
+                    <value>
+                      <FeaturePluginData displayName="Multirun" pluginName="Multirun" pluginId="com.khmelyuk.multirun" />
+                    </value>
+                  </entry>
                   <entry key="NodeJSConfigurationType">
                     <value>
                       <FeaturePluginData displayName="Node.js" pluginName="Node.js" pluginId="NodeJS" />
