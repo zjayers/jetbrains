@@ -31,6 +31,7 @@
     <option name="widgets">
       <map>
         <entry key="AwsSettingsPanel" value="false" />
+        <entry key="BuildStatusSummary" value="false" />
         <entry key="InsertOverwrite" value="false" />
         <entry key="Memory" value="true" />
         <entry key="Notifications" value="false" />
