@@ -235,6 +235,8 @@
   <action id="ShowContent" />
   <action id="ShowErrorDescription">
     <keyboard-shortcut first-keystroke="shift enter" />
+  </action>
+  <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="meta numpad0" />
   </action>
   <action id="ShowReformatFileDialog">
