@@ -1,7 +1,13 @@
 <keymap version="1" name="Workspace (Mac)" parent="VSCode OSX">
   <action id="ActivateDebugToolWindow" />
+  <action id="ActivateMavenToolWindow">
+    <keyboard-shortcut first-keystroke="meta numpad3" />
+  </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="f1" />
+  </action>
+  <action id="ActivateServicesToolWindow">
+    <keyboard-shortcut first-keystroke="meta numpad1" />
   </action>
   <action id="ChangesView.GroupBy.Module" />
   <action id="CloseAllEditors">
@@ -11,9 +17,8 @@
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
-  <action id="CollapseExpandableComponent">
-    <keyboard-shortcut first-keystroke="meta subtract" />
-  </action>
+  <action id="CollapseAll" />
+  <action id="CollapseExpandableComponent" />
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="shift alt a" />
     <keyboard-shortcut first-keystroke="shift meta slash" />
@@ -39,6 +44,7 @@
   <action id="Coverage">
     <keyboard-shortcut first-keystroke="meta f5" />
   </action>
+  <action id="DSM.ZoomIn" />
   <action id="Debug" />
   <action id="DelombokActionGroup">
     <keyboard-shortcut first-keystroke="alt l" />
@@ -57,9 +63,7 @@
     <keyboard-shortcut first-keystroke="down" />
   </action>
   <action id="EditorFocusGutter">
-    <keyboard-shortcut first-keystroke="shift alt 6" second-keystroke="f" />
     <keyboard-shortcut first-keystroke="meta g" />
-    <keyboard-shortcut first-keystroke="meta numpad0" />
   </action>
   <action id="EditorJoinLines" />
   <action id="EditorLookupDown" />
@@ -86,9 +90,10 @@
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
   </action>
-  <action id="ExpandExpandableComponent">
-    <keyboard-shortcut first-keystroke="meta add" />
-  </action>
+  <action id="ExpandAll" />
+  <action id="ExpandExpandableComponent" />
+  <action id="ExternalSystem.CollapseAll" />
+  <action id="ExternalSystem.ExpandAll" />
   <action id="Find">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
@@ -125,6 +130,8 @@
   </action>
   <action id="Graph.ApplyCurrentLayout" />
   <action id="HideSideWindows" />
+  <action id="Images.Editor.ZoomIn" />
+  <action id="Images.Editor.ZoomOut" />
   <action id="IntroduceActionsGroup">
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
@@ -136,6 +143,8 @@
   <action id="LombokActionGroup">
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
+  <action id="Maven.CollapseAll" />
+  <action id="Maven.ExpandAll" />
   <action id="Maven.Reimport">
     <keyboard-shortcut first-keystroke="meta m" />
   </action>
@@ -164,6 +173,8 @@
     <keyboard-shortcut first-keystroke="up" />
   </action>
   <action id="PreviousEditorTab" />
+  <action id="ProblemsView.CollapseAll" />
+  <action id="ProblemsView.ExpandAll" />
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="control button2" />
     <keyboard-shortcut first-keystroke="alt d" />
@@ -224,6 +235,7 @@
   <action id="ShowContent" />
   <action id="ShowErrorDescription">
     <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="meta numpad0" />
   </action>
   <action id="ShowReformatFileDialog">
     <keyboard-shortcut first-keystroke="shift meta alt l" />
@@ -241,9 +253,7 @@
   <action id="SmartSearchAction" />
   <action id="StepOut" />
   <action id="SurroundWith">
-    <keyboard-shortcut first-keystroke="meta alt t" />
-    <keyboard-shortcut first-keystroke="meta numpad1" />
-    <keyboard-shortcut first-keystroke="alt s" />
+    <keyboard-shortcut first-keystroke="meta add" />
   </action>
   <action id="SurroundWithEmmet">
     <keyboard-shortcut first-keystroke="alt numpad3" />
@@ -266,9 +276,9 @@
   <action id="Tree-selectPrevious">
     <keyboard-shortcut first-keystroke="up" />
   </action>
+  <action id="UML.ZoomIn" />
   <action id="Unwrap">
-    <keyboard-shortcut first-keystroke="shift meta delete" />
-    <keyboard-shortcut first-keystroke="meta numpad3" />
+    <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
   <action id="UsageGrouping.Directory" />
   <action id="UsageGrouping.Module" />
