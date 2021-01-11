@@ -1,10 +1,5 @@
 <application>
   <component name="libraryTable">
-    <library name="@types/react-native" type="javaScript">
-      <CLASSES />
-      <JAVADOC />
-      <SOURCES />
-    </library>
     <library name="@types/react-redux" type="javaScript">
       <CLASSES />
       <JAVADOC />
@@ -2611,6 +2606,11 @@
       <properties>
         <option name="version" value="4" />
       </properties>
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="lombok" type="javaScript">
       <CLASSES />
       <JAVADOC />
       <SOURCES />
