@@ -1,8 +1,5 @@
 <keymap version="1" name="Workspace (Mac)" parent="VSCode OSX">
   <action id="ActivateDebugToolWindow" />
-  <action id="ActivateMavenToolWindow">
-    <keyboard-shortcut first-keystroke="meta numpad3" />
-  </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
@@ -36,6 +33,9 @@
   </action>
   <action id="Console.TableResult.EditValueMaximized">
     <keyboard-shortcut first-keystroke="shift alt enter" />
+  </action>
+  <action id="Console.TableResult.NavigateExportedAction">
+    <keyboard-shortcut first-keystroke="alt f7" />
   </action>
   <action id="CopyReference">
     <keyboard-shortcut first-keystroke="shift meta alt c" />
@@ -103,10 +103,6 @@
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
-  <action id="FindUsages">
-    <keyboard-shortcut first-keystroke="alt f7" />
-    <keyboard-shortcut first-keystroke="meta numpad2" />
-  </action>
   <action id="Flutter.JumpToSource" />
   <action id="Github.PullRequest.Changes.Reload" />
   <action id="Github.PullRequest.Comments.Reload" />
@@ -114,6 +110,13 @@
   <action id="Github.PullRequest.Timeline.Update" />
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="f12" />
+    <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="button2" />
+    <mouse-shortcut keystroke="Force touch" />
+    <keyboard-shortcut first-keystroke="meta numpad2" />
   </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="ctrl meta down" />
@@ -259,6 +262,11 @@
   </action>
   <action id="SurroundWithEmmet">
     <keyboard-shortcut first-keystroke="alt numpad3" />
+  </action>
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+    <keyboard-shortcut first-keystroke="meta numpad3" />
   </action>
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
