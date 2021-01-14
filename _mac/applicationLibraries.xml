@@ -3572,6 +3572,21 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.7.0/gems/jbuilder-2.10.1/gemfiles" />
       </excluded>
     </library>
+    <library name="jquery" type="javaScript">
+      <properties>
+        <option name="frameworkName" value="jQuery" />
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_jquery_3.5.1_jquery.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_jquery_3.5.1_jquery.js" />
+      </CLASSES>
+      <DOCUMENTATION>
+        <root url="http://api.jquery.com" />
+      </DOCUMENTATION>
+      <SOURCES />
+    </library>
     <library name="json (v1.8.3, RVM: ruby-2.3.1 [global]) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
