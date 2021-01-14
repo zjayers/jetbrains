@@ -2,6 +2,10 @@
   <component name="FileTypeManager" version="18">
     <ignoreFiles list="*$py.class;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
     <extensionMap>
+      <mapping pattern="test" type="AUTO_DETECTED" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
+      <mapping pattern="gemfile.lock" type="PLAIN_TEXT" />
       <mapping pattern="to-english-string" type="PLAIN_TEXT" />
       <mapping pattern="hash-table" type="PLAIN_TEXT" />
       <mapping pattern="to-title-case" type="PLAIN_TEXT" />
@@ -23,8 +27,8 @@
       <mapping pattern=".pylintrc" type="PLAIN_TEXT" />
       <mapping pattern="tuple" type="PLAIN_TEXT" />
       <mapping pattern="flatten" type="PLAIN_TEXT" />
-      <mapping pattern="set" type="PLAIN_TEXT" />
       <mapping pattern="to-capital-case" type="PLAIN_TEXT" />
+      <mapping pattern="set" type="PLAIN_TEXT" />
       <mapping pattern="queue" type="PLAIN_TEXT" />
       <mapping pattern="node" type="PLAIN_TEXT" />
       <mapping pattern="weak-map" type="PLAIN_TEXT" />
@@ -44,10 +48,9 @@
       <mapping pattern="trie" type="PLAIN_TEXT" />
       <mapping pattern="get-product" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="tsv" approved="true" type="TSV" />
-      <mapping ext="gradle.kts" type="Kotlin" />
-      <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="lists" type="Python" />
     </extensionMap>
   </component>

@@ -4,7 +4,7 @@
     <property name="created">2020-11-10T10:35:31</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2020.2.3.0.0</property>
-    <property name="modified">2020-12-04T10:09:18</property>
+    <property name="modified">2020-12-11T09:37:14</property>
     <property name="originalScheme">Solarized Light (4lex4)</property>
   </metaInfo>
   <console-font>
@@ -159,7 +159,7 @@
         <option name="FOREGROUND" value="a85ba3" />
       </value>
     </option>
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="Abstract class">
       <value>
         <option name="FOREGROUND" value="859900" />
@@ -284,7 +284,6 @@
         <option name="FOREGROUND" value="69be" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.FUNCTION_NAME" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="COFFEESCRIPT.IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="657b83" />
@@ -431,7 +430,6 @@
       <value>
         <option name="FOREGROUND" value="268bd2" />
         <option name="EFFECT_COLOR" value="268bd2" />
-        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
@@ -666,7 +664,7 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="268bd2" />
+        <option name="FOREGROUND" value="3694d3" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -695,6 +693,7 @@
     <option name="DEFAULT_METADATA">
       <value>
         <option name="FOREGROUND" value="d33682" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -702,11 +701,7 @@
         <option name="FOREGROUND" value="cb4b16" />
       </value>
     </option>
-    <option name="DEFAULT_PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="3396d8" />
-      </value>
-    </option>
+    <option name="DEFAULT_PARAMETER" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_PREDEFINED_SYMBOL" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
       <value>
@@ -1062,7 +1057,7 @@
         <option name="BACKGROUND" value="c6c7bd" />
       </value>
     </option>
-    <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="" />
+    <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="IVAR">
       <value>
         <option name="FOREGROUND" value="268bd2" />
@@ -1201,20 +1196,16 @@
         <option name="FOREGROUND" value="6c71c4" />
       </value>
     </option>
-    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="JS.GLOBAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="6c71c4" />
       </value>
     </option>
-    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
-    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.MODULE_KEYWORD">
       <value>
         <option name="FOREGROUND" value="859900" />
       </value>
     </option>
-    <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="9674ec" />
@@ -2549,8 +2540,8 @@
         <option name="FOREGROUND" value="a85ba3" />
       </value>
     </option>
-    <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="" />
-    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="" />
+    <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
     <option name="STRUCT_LIKE">
       <value>
         <option name="FOREGROUND" value="b38700" />
