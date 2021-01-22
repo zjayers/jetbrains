@@ -1,5 +1,12 @@
 <application>
   <component name="ExtraIconsSettings">
+    <option name="disabledModelIds">
+      <list>
+        <option value="angular_html" />
+        <option value="typescript-ts" />
+      </list>
+    </option>
+    <option name="ignoredPattern" value="" />
     <option name="additionalUIScale" value="1.0" />
   </component>
 </application>
