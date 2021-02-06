@@ -2,7 +2,6 @@
   <component name="ExtraIconsSettings">
     <option name="disabledModelIds">
       <list>
-        <option value="angular_html" />
         <option value="typescript-ts" />
       </list>
     </option>
