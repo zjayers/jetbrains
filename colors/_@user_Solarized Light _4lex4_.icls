@@ -4,7 +4,7 @@
     <property name="created">2020-11-10T10:35:31</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2020.2.3.0.0</property>
-    <property name="modified">2020-12-11T09:37:14</property>
+    <property name="modified">2021-01-22T12:17:19</property>
     <property name="originalScheme">Solarized Light (4lex4)</property>
   </metaInfo>
   <console-font>
@@ -664,7 +664,9 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="3694d3" />
+        <option name="FOREGROUND" value="6c71c4" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -701,7 +703,11 @@
         <option name="FOREGROUND" value="cb4b16" />
       </value>
     </option>
-    <option name="DEFAULT_PARAMETER" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="3396d8" />
+      </value>
+    </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
       <value>
@@ -1196,21 +1202,19 @@
         <option name="FOREGROUND" value="6c71c4" />
       </value>
     </option>
-    <option name="JS.GLOBAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="6c71c4" />
-      </value>
-    </option>
+    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.MODULE_KEYWORD">
       <value>
         <option name="FOREGROUND" value="859900" />
       </value>
     </option>
+    <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="JS.REGEXP">
       <value>
-        <option name="FOREGROUND" value="9674ec" />
-        <option name="BACKGROUND" value="eee8d5" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="6c71c4" />
       </value>
     </option>
     <option name="JS.THIS_SUPER">
@@ -1239,6 +1243,7 @@
         <option name="BACKGROUND" value="ecf3e5" />
       </value>
     </option>
+    <option name="JavaScript:INJECTED_LANGUAGE_FRAGMENT" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
     <option name="KOTLIN_AUTO_CASTED_VALUE">
       <value>
         <option name="FOREGROUND" value="dbffdb" />

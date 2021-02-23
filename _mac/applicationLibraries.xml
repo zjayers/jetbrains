@@ -2413,6 +2413,7 @@
       <DOCUMENTATION>
         <root url="http://api.jquery.com" />
       </DOCUMENTATION>
+      <JAVADOC />
       <SOURCES />
     </library>
     <library name="json (v1.8.3, RVM: ruby-2.3.1 [global]) [gem]" type="rubylib">
