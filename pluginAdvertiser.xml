@@ -93,8 +93,8 @@
         <entry key="*.apk">
           <value>
             <plugin>
-              <option name="myPluginId" value="org.jetbrains.android" />
-              <option name="myPluginName" value="Android" />
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -290,8 +290,7 @@
           <value>
             <plugin>
               <option name="myPluginId" value="com.intellij.database" />
-              <option name="myPluginName" value="Database Tools and SQL" />
-              <option name="myBundled" value="true" />
+              <option name="myPluginName" value="Database Tools and SQL for WebStorm" />
             </plugin>
           </value>
         </entry>
@@ -308,8 +307,7 @@
           <value>
             <plugin>
               <option name="myPluginId" value="com.intellij.database" />
-              <option name="myPluginName" value="Database Tools and SQL" />
-              <option name="myBundled" value="true" />
+              <option name="myPluginName" value="Database Tools and SQL for WebStorm" />
             </plugin>
           </value>
         </entry>
@@ -359,8 +357,7 @@
           <value>
             <plugin>
               <option name="myPluginId" value="com.intellij.database" />
-              <option name="myPluginName" value="Database Tools and SQL" />
-              <option name="myBundled" value="true" />
+              <option name="myPluginName" value="Database Tools and SQL for WebStorm" />
             </plugin>
           </value>
         </entry>
@@ -547,6 +544,7 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.lang.ejs" />
               <option name="myPluginName" value="EJS" />
+              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -882,6 +880,7 @@
             <plugin>
               <option name="myPluginId" value="com.dmarcotte.handlebars" />
               <option name="myPluginName" value="Handlebars/Mustache" />
+              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -899,6 +898,7 @@
             <plugin>
               <option name="myPluginId" value="com.dmarcotte.handlebars" />
               <option name="myPluginName" value="Handlebars/Mustache" />
+              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -993,16 +993,16 @@
           <value>
             <plugin>
               <option name="myPluginId" value="com.intellij.database" />
-              <option name="myPluginName" value="Database Tools and SQL" />
-              <option name="myBundled" value="true" />
+              <option name="myPluginName" value="Database Tools and SQL for WebStorm" />
             </plugin>
           </value>
         </entry>
         <entry key="*.ignore">
           <value>
             <plugin>
-              <option name="myPluginId" value="mobi.hsz.idea.gitignore" />
-              <option name="myPluginName" value=".ignore" />
+              <option name="myPluginId" value="com.intellij" />
+              <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -1079,6 +1079,7 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.plugins.jade" />
               <option name="myPluginName" value="Pug (ex-Jade)" />
+              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -1537,6 +1538,7 @@
             <plugin>
               <option name="myPluginId" value="com.dmarcotte.handlebars" />
               <option name="myPluginName" value="Handlebars/Mustache" />
+              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -1915,8 +1917,8 @@
         <entry key="*.psd">
           <value>
             <plugin>
-              <option name="myPluginId" value="org.jetbrains.android" />
-              <option name="myPluginName" value="Android" />
+              <option name="myPluginId" value="com.intellij.platform.images" />
+              <option name="myPluginName" value="com.intellij.platform.images" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -1950,6 +1952,7 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.plugins.jade" />
               <option name="myPluginName" value="Pug (ex-Jade)" />
+              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -2336,6 +2339,7 @@
             <plugin>
               <option name="myPluginId" value="com.jetbrains.plugins.meteor" />
               <option name="myPluginName" value="Meteor" />
+              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -2343,8 +2347,7 @@
           <value>
             <plugin>
               <option name="myPluginId" value="com.intellij.database" />
-              <option name="myPluginName" value="Database Tools and SQL" />
-              <option name="myBundled" value="true" />
+              <option name="myPluginName" value="Database Tools and SQL for WebStorm" />
             </plugin>
           </value>
         </entry>
@@ -2588,8 +2591,7 @@
           <value>
             <plugin>
               <option name="myPluginId" value="com.intellij.database" />
-              <option name="myPluginName" value="Database Tools and SQL" />
-              <option name="myBundled" value="true" />
+              <option name="myPluginName" value="Database Tools and SQL for WebStorm" />
             </plugin>
           </value>
         </entry>
@@ -2685,6 +2687,7 @@
             <plugin>
               <option name="myPluginId" value="org.jetbrains.plugins.vue" />
               <option name="myPluginName" value="Vue.js" />
+              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
@@ -3140,6 +3143,15 @@
             <plugin>
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key=".template-lintrc.js">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="JavaScript" />
+              <option name="myPluginName" value="JavaScript and TypeScript" />
               <option name="myBundled" value="true" />
             </plugin>
           </value>
@@ -3720,7 +3732,7 @@
                   </entry>
                   <entry key="DatabaseScript">
                     <value>
-                      <FeaturePluginData displayName="Database Script" pluginName="Database Tools and SQL" pluginId="com.intellij.database" />
+                      <FeaturePluginData displayName="Database Script" pluginName="Database Tools and SQL for WebStorm" pluginId="com.intellij.database" />
                     </value>
                   </entry>
                   <entry key="DenoConfigurationType">
@@ -3731,6 +3743,16 @@
                   <entry key="DjangoTestsConfigurationType">
                     <value>
                       <FeaturePluginData displayName="Django tests" pluginName="Python" pluginId="Pythonid" />
+                    </value>
+                  </entry>
+                  <entry key="EMBER_SERVE_CONFIGURATION">
+                    <value>
+                      <FeaturePluginData displayName="Ember Serve" pluginName="Ember.js" pluginId="com.emberjs" />
+                    </value>
+                  </entry>
+                  <entry key="EMBER_TEST_CONFIGURATION">
+                    <value>
+                      <FeaturePluginData displayName="Ember Test" pluginName="Ember.js" pluginId="com.emberjs" />
                     </value>
                   </entry>
                   <entry key="FirefoxRemoteDebugType">
@@ -4110,7 +4132,7 @@
                   </entry>
                   <entry key="TSqltConfigurationType">
                     <value>
-                      <FeaturePluginData displayName="tSQLt Test" pluginName="Database Tools and SQL" pluginId="com.intellij.database" />
+                      <FeaturePluginData displayName="tSQLt Test" pluginName="Database Tools and SQL for WebStorm" pluginId="com.intellij.database" />
                     </value>
                   </entry>
                   <entry key="TestNG">
@@ -4135,7 +4157,7 @@
                   </entry>
                   <entry key="UtPlSqlConfigurationType">
                     <value>
-                      <FeaturePluginData displayName="utPLSQL Test" pluginName="Database Tools and SQL" pluginId="com.intellij.database" />
+                      <FeaturePluginData displayName="utPLSQL Test" pluginName="Database Tools and SQL for WebStorm" pluginId="com.intellij.database" />
                     </value>
                   </entry>
                   <entry key="WebLogic Instance">
