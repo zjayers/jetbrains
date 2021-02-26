@@ -1,0 +1,16 @@
+<application>
+  <component name="Atom Icon Associations Config">
+    <option name="customFileAssociations">
+      <CustomAssociations>
+        <option name="customAssociations">
+          <RegexAssociation>
+            <option name="matcher" value=".*/.?[dD]ockerfile\.dev$" />
+            <option name="pattern" value=".*/.?[dD]ockerfile\.dev$" />
+            <option name="name" value="DockerDev" />
+            <option name="icon" value=".*/.?[dD]ockerfile.dev$" />
+          </RegexAssociation>
+        </option>
+      </CustomAssociations>
+    </option>
+  </component>
+</application>

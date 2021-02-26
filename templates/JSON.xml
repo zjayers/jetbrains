@@ -1,0 +1,9 @@
+<templateSet group="JSON">
+  <template name="pkg" value="&quot;name&quot;: &quot;$NAME$&quot;,&#10;  &quot;version&quot;: &quot;1.0.0&quot;,&#10;  &quot;description&quot;: &quot;$DESCRIPTION$&quot;,&#10;  &quot;author&quot;: &quot;Zach Ayers&quot;,&#10;  &quot;license&quot;: &quot;MIT&quot;,&#10;  &quot;homepage&quot;: &quot;https://zjayers.github.io/$NAME$/&quot;,&#10;  &quot;repository&quot;: {&#10;    &quot;type&quot;: &quot;git&quot;,&#10;    &quot;url&quot;: &quot;git+https://github.com/zjayers/$NAME$.git&quot;&#10;  },&#10;  &quot;bugs&quot;: {&#10;    &quot;url&quot;: &quot;https://github.com/zjayers/$NAME$/issues&quot;&#10;  },&#10;  &quot;engines&quot;: {&#10;    &quot;npm&quot;: &quot;&gt;=6.14.7&quot;,&#10;    &quot;node&quot;: &quot;&gt;=12.18.3&quot;&#10;  },&#10;  &quot;private&quot;: true," description="Package JSON Default Vals" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+</templateSet>
