@@ -1,0 +1,114 @@
+<keymap version="1" name="Workspace (Win)" parent="VSCode">
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+    <keyboard-shortcut first-keystroke="alt back_space" />
+    <keyboard-shortcut first-keystroke="meta z" />
+  </action>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="shift meta e" />
+    <keyboard-shortcut first-keystroke="meta f1" />
+    <keyboard-shortcut first-keystroke="ctrl f1" />
+  </action>
+  <action id="Adtui.ZoomToActualAction">
+    <keyboard-shortcut first-keystroke="meta 0" />
+  </action>
+  <action id="Android.CleanRun" />
+  <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
+  <action id="CompileDirty">
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
+  <action id="DecrementWindowHeight" />
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="meta z" />
+  </action>
+  <action id="EditorLookupDown" />
+  <action id="EditorLookupUp" />
+  <action id="EditorPageDown" />
+  <action id="EditorPageUp" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="shift meta up" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="shift meta down" />
+  </action>
+  <action id="Flutter.JumpToSource" />
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="f13" />
+  </action>
+  <action id="Github.PullRequest.Details.Reload" />
+  <action id="Github.PullRequest.Timeline.Update" />
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="f8" />
+    <keyboard-shortcut first-keystroke="page_down" />
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
+  <action id="GotoPreviousError">
+    <keyboard-shortcut first-keystroke="shift f8" />
+    <keyboard-shortcut first-keystroke="page_up" />
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="GotoRelated" />
+  <action id="HideSideWindows" />
+  <action id="IncrementWindowHeight" />
+  <action id="IntroduceActionsGroup">
+    <keyboard-shortcut first-keystroke="meta e" />
+  </action>
+  <action id="List-selectLastRow" />
+  <action id="MethodDown" />
+  <action id="MethodUp" />
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="ctrl meta down" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="ctrl meta up" />
+  </action>
+  <action id="QuickJavaDoc">
+    <mouse-shortcut keystroke="control button2" />
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="RecentFiles" />
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="meta r" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="Refresh" />
+  <action id="ResizeToolWindowDown" />
+  <action id="ResizeToolWindowUp" />
+  <action id="SearchEverywhere.NavigateToNextGroup" />
+  <action id="SearchEverywhere.NavigateToPrevGroup" />
+  <action id="ShowContent" />
+  <action id="ShowErrorDescription">
+    <keyboard-shortcut first-keystroke="meta numpad0" />
+    <keyboard-shortcut first-keystroke="ctrl numpad1" />
+  </action>
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="ctrl period" />
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="context_menu" />
+    <keyboard-shortcut first-keystroke="ctrl numpad0" />
+  </action>
+  <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
+  <action id="Table-scrollUpChangeSelection" />
+  <action id="Table-selectLastRow" />
+  <action id="Tree-scrollUpChangeSelection" />
+  <action id="Vcs.Log.Refresh" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl meta e" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="shift ctrl meta e" />
+  </action>
+  <action id="hg4idea.QRefresh" />
+</keymap>
