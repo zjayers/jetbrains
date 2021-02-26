@@ -1,0 +1,17 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="JavaScript">
+        <added pattern="Chai.Assert.equal(actual,expected,message)" />
+        <added pattern="React.useReducer(reducer,initializerArg,initializer)" />
+      </blacklist>
+    </blacklists>
+    <option id="java.multiple.params.same.type" value="true" />
+    <option id="js.param.hints.show.names.for.all.args" value="true" />
+    <option id="java.build.like.method" value="true" />
+    <option id="java.simple.sequentially.numbered" value="true" />
+    <option id="java.clear.expression.type" value="true" />
+    <option id="js.only.show.names.for.all.args" value="true" />
+    <option id="java.method.name.contains.parameter.name" value="true" />
+  </component>
+</application>
