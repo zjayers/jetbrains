@@ -18,6 +18,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl b" />
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
   <action id="DecrementWindowHeight" />
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="meta z" />
@@ -64,16 +67,15 @@
   <action id="MoveStatementUp">
     <keyboard-shortcut first-keystroke="ctrl meta up" />
   </action>
-  <action id="NewElementInMenuGroup">
-    <keyboard-shortcut first-keystroke="f13" />
-  </action>
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="control button2" />
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
+  <action id="RecentFiles" />
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
     <keyboard-shortcut first-keystroke="meta r" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="Refresh" />
   <action id="ResizeToolWindowDown" />
@@ -83,6 +85,15 @@
   <action id="ShowContent" />
   <action id="ShowErrorDescription">
     <keyboard-shortcut first-keystroke="meta numpad0" />
+    <keyboard-shortcut first-keystroke="ctrl numpad1" />
+  </action>
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="ctrl period" />
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="context_menu" />
+    <keyboard-shortcut first-keystroke="ctrl numpad0" />
   </action>
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />

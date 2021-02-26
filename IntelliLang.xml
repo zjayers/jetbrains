@@ -88,6 +88,11 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("println").withParameters("java.lang.String").definedInClass("java.io.PrintWriter"))]]></place>
     </injection>
     <injection language="SQL" injector-id="java">
+      <display-name>QueryProducer (org.hibernate.query)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createNativeQuery").definedInClass("org.hibernate.query.QueryProducer"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createSQLQuery").definedInClass("org.hibernate.query.QueryProducer"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
       <display-name>QueryRunner (org.apache.commons.dbutils)</display-name>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("batch").withParameterCount(2).definedInClass("org.apache.commons.dbutils.QueryRunner"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("insertBatch").withParameterCount(3).definedInClass("org.apache.commons.dbutils.QueryRunner"))]]></place>
@@ -344,6 +349,11 @@
       <place><![CDATA[psiMethod().withName("xpath").withParameters().definedInClass("org.openqa.selenium.support.FindBy")]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("xpath").withParameters("java.lang.String").definedInClass("org.openqa.selenium.By"))]]></place>
     </injection>
+    <injection language="HQL" injector-id="java">
+      <display-name>Session.createQuery (org.hibernate)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.Session"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createQuery").definedInClass("org.hibernate.query.QueryProducer"))]]></place>
+    </injection>
     <injection language="SQL" injector-id="java">
       <display-name>SmallRye Axle SqlClient (io.vertx.axle.sqlclient)</display-name>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("query", "preparedQuery", "preparedBatch").definedInClass("io.vertx.axle.sqlclient.Pool"))]]></place>
@@ -359,6 +369,42 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("prepare", "prepareAndAwait").definedInClass("io.vertx.mutiny.db2client.DB2Connection"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("prepare", "prepareAndAwait").definedInClass("io.vertx.mutiny.mysqlclient.MySQLConnection"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("prepare", "prepareAndAwait").definedInClass("io.vertx.mutiny.pgclient.PgConnection"))]]></place>
+    </injection>
+    <injection language="SpEL" injector-id="java">
+      <display-name>Spring @Cacheable and @CacheEvict</display-name>
+      <place><![CDATA[psiMethod().withName("condition").withParameters().definedInClass("org.springframework.cache.annotation.CacheEvict")]]></place>
+      <place><![CDATA[psiMethod().withName("condition").withParameters().definedInClass("org.springframework.cache.annotation.CachePut")]]></place>
+      <place><![CDATA[psiMethod().withName("condition").withParameters().definedInClass("org.springframework.cache.annotation.Cacheable")]]></place>
+      <place><![CDATA[psiMethod().withName("key").withParameters().definedInClass("org.springframework.cache.annotation.CacheEvict")]]></place>
+      <place><![CDATA[psiMethod().withName("key").withParameters().definedInClass("org.springframework.cache.annotation.CachePut")]]></place>
+      <place><![CDATA[psiMethod().withName("key").withParameters().definedInClass("org.springframework.cache.annotation.Cacheable")]]></place>
+      <place><![CDATA[psiMethod().withName("unless").withParameters().definedInClass("org.springframework.cache.annotation.CachePut")]]></place>
+      <place><![CDATA[psiMethod().withName("unless").withParameters().definedInClass("org.springframework.cache.annotation.Cacheable")]]></place>
+    </injection>
+    <injection language="http-header-reference" injector-id="java">
+      <display-name>Spring HttpHeaders (org.springframework.http)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("header").definedInClass("org.springframework.http.ResponseEntity.HeadersBuilder"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("header").definedInClass("org.springframework.web.servlet.function.ServerResponse.HeadersBuilder"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("set", "add", "addAll", "getFirst", "containsKey", "get", "put", "getFirstDate", "setDate", "setInstant", "setZonedDateTime").definedInClass("org.springframework.http.HttpHeaders"))]]></place>
+    </injection>
+    <injection language="SpEL" injector-id="java">
+      <display-name>Spring Integration/Messaging</display-name>
+      <place><![CDATA[psiMethod().withName("expression").withParameters().definedInClass("org.springframework.messaging.handler.annotation.Payload")]]></place>
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.springframework.integration.annotation.Payload")]]></place>
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.springframework.messaging.handler.annotation.Payload")]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Spring JDBC (org.springframework.jdbc.core.PreparedStatementCreatorFactory)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("PreparedStatementCreatorFactory").withParameters("java.lang.String").definedInClass("org.springframework.jdbc.core.PreparedStatementCreatorFactory"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("PreparedStatementCreatorFactory").withParameters("java.lang.String", "int[]").definedInClass("org.springframework.jdbc.core.PreparedStatementCreatorFactory"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("PreparedStatementCreatorFactory").withParameters("java.lang.String", "java.util.List").definedInClass("org.springframework.jdbc.core.PreparedStatementCreatorFactory"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
+      <display-name>Spring JDBC (org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createCustomException").withParameters("java.lang.String", "java.lang.String", "java.sql.SQLException", "java.lang.Class").definedInClass("org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("customTranslate").withParameters("java.lang.String", "java.lang.String", "java.sql.SQLException").definedInClass("org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("doTranslate").withParameters("java.lang.String", "java.lang.String", "java.sql.SQLException").definedInClass("org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("logTranslation").withParameters("java.lang.String", "java.lang.String", "java.sql.SQLException", "boolean").definedInClass("org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator"))]]></place>
     </injection>
     <injection language="RegExp" injector-id="java">
       <display-name>String (java.lang)</display-name>
@@ -427,6 +473,11 @@
       <place><![CDATA[psiMethod().withName("value").definedInClass("org.davidmoten.rx.jdbc.annotations.Query")]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("call", "select", "update").definedInClass("org.davidmoten.rx.jdbc.Database"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("call", "select", "update").definedInClass("org.davidmoten.rx.jdbc.TransactedBuilder"))]]></place>
+    </injection>
+    <injection language="SQLite" injector-id="js">
+      <display-name>flash.data (SQLite)</display-name>
+      <place><![CDATA[jsLiteral().and(asAssignedValue("text", "*", "dbStatement"))]]></place>
+      <place><![CDATA[jsLiteral().and(asAssignedValue("text", "flash.data.SQLStatement"))]]></place>
     </injection>
     <injection language="RegExp" injector-id="kotlin">
       <display-name>Kotlin</display-name>
@@ -517,6 +568,12 @@
       <display-name>IntelliJ IDEA pattern</display-name>
       <place><![CDATA[xmlTag().withLocalName("pattern").inside(xmlTag().withLocalName("idea-plugin"))]]></place>
       <place><![CDATA[xmlTag().withLocalName("place").withParent(xmlTag().withLocalName("injection").withParent(xmlTag().withLocalName("component")))]]></place>
+    </injection>
+    <injection language="SpEL" injector-id="xml">
+      <display-name>SpEL for Spring Cache</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName("condition").withParent(xmlTag().withNamespace(string().equalTo("http://www.springframework.org/schema/cache")))]]></place>
+      <place><![CDATA[xmlAttribute().withLocalName("key").withParent(xmlTag().withNamespace(string().equalTo("http://www.springframework.org/schema/cache")))]]></place>
+      <place><![CDATA[xmlAttribute().withLocalName("unless").withParent(xmlTag().withNamespace(string().equalTo("http://www.springframework.org/schema/cache")))]]></place>
     </injection>
   </component>
 </application>
