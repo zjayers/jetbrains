@@ -1,0 +1,11 @@
+<templateSet group="Algorithms">
+  <template name="algo" value="class $NAME$ {&#10;&#10;    /**&#10;     * &#10;     * @timeComplexity O(n) - Linear Time&#10;     * @param {boolean} log - Log the time monitor to the console?&#10;     * @returns&#10;     */&#10;    public linear($INPUT$, log:boolean = false): $OUTPUT$ {&#10;        // Start the monitor&#10;        const mn = new Monitor();&#10;        log &amp;&amp; mn.startMonitor();&#10;        &#10;        $CODE$&#10;        &#10;        // Stop The Monitor &amp; Report&#10;        log &amp;&amp; mn.stopMonitor();&#10;    }&#10;    &#10;    /**&#10;     * &#10;     * @timeComplexity O(1) - Constant Time&#10;     * @param {boolean} log - Log the time monitor to the console?&#10;     * @returns&#10;     */&#10;    public constant($INPUT$, log:boolean = false): $OUTPUT$ {&#10;        // Start the monitor&#10;        const mn = new Monitor();&#10;        log &amp;&amp; mn.startMonitor();&#10;        &#10;        $CODE$&#10;        &#10;        // Stop The Monitor &amp; Report&#10;        log &amp;&amp; mn.stopMonitor();&#10;    }&#10;}&#10;&#10;export {$NAME$};&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="NAME" alwaysStopAt="true" />
+    <variable name="INPUT" expression="" defaultValue="INPUT" alwaysStopAt="true" />
+    <variable name="OUTPUT" expression="" defaultValue="OUTPUT" alwaysStopAt="true" />
+    <variable name="CODE" expression="" defaultValue="CODE" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
