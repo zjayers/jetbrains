@@ -5,6 +5,7 @@
         <entry key="CdiDisposerMethodsClassAnnotator" value="true" />
         <entry key="CdiInjectionsClassAnnotator" value="true" />
         <entry key="ConfigurationPropertyRelatedItemLineMarkerProvider" value="true" />
+        <entry key="HelidonClassAnnotator" value="true" />
         <entry key="LiveBeansClassLineMarkerProvider" value="true" />
         <entry key="LiveBeansDomLineMarkerProvider" value="true" />
         <entry key="MessageHandlerLineMarkerProvider" value="true" />
@@ -37,7 +38,7 @@
         <entry key="com.intellij.cdi.gutter.CdiAnnotationsLineMarkerProvider" value="true" />
         <entry key="com.intellij.cdi.gutter.CdiConfigLineMarkerProvider" value="true" />
         <entry key="com.intellij.codeInsight.ExternalAnnotationLineMarkerProvider" value="true" />
-        <entry key="com.intellij.codeInsight.InferredContractAnnotationsLineMarkerProvider" value="false" />
+        <entry key="com.intellij.codeInsight.InferredContractAnnotationsLineMarkerProvider" value="true" />
         <entry key="com.intellij.codeInsight.InferredNullabilityAnnotationsLineMarkerProvider" value="true" />
         <entry key="com.intellij.codeInsight.daemon.impl.IconLineMarkerProvider" value="true" />
         <entry key="com.intellij.codeInsight.daemon.impl.RecursiveCallLineMarkerProvider" value="true" />
