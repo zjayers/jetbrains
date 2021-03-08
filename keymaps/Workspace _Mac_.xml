@@ -87,6 +87,9 @@
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
+  <action id="EditorUnindentSelection">
+    <keyboard-shortcut first-keystroke="shift tab" />
+  </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
   </action>
@@ -110,6 +113,9 @@
   <action id="Github.PullRequest.Timeline.Update" />
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="f12" />
