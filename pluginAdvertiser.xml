@@ -184,6 +184,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.cfc">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="CFML Support" />
+              <option name="myPluginName" value="CFML" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.cfg">
           <value>
             <plugin>
@@ -197,6 +205,22 @@
             <plugin>
               <option name="myPluginId" value="mobi.hsz.idea.gitignore" />
               <option name="myPluginName" value=".ignore" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.cfm">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="CFML Support" />
+              <option name="myPluginName" value="CFML" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.cfml">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="CFML Support" />
+              <option name="myPluginName" value="CFML" />
             </plugin>
           </value>
         </entry>
@@ -2709,7 +2733,6 @@
             <plugin>
               <option name="myPluginId" value="org.jetbrains.plugins.vue" />
               <option name="myPluginName" value="Vue.js" />
-              <option name="myBundled" value="true" />
             </plugin>
           </value>
         </entry>
