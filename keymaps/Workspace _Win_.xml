@@ -15,6 +15,9 @@
   <action id="Android.CleanRun" />
   <action id="Back" />
   <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
   <action id="CompileDirty">
     <keyboard-shortcut first-keystroke="shift ctrl b" />
     <keyboard-shortcut first-keystroke="ctrl b" />
@@ -22,6 +25,7 @@
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
   </action>
+  <action id="Debug" />
   <action id="DecrementWindowHeight" />
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
@@ -98,6 +102,7 @@
     <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
   <action id="GotoRelated" />
+  <action id="Graph.ApplyCurrentLayout" />
   <action id="HideSideWindows" />
   <action id="IncrementWindowHeight" />
   <action id="IntroduceActionsGroup">
