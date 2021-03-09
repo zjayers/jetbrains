@@ -13,6 +13,7 @@
     <keyboard-shortcut first-keystroke="meta 0" />
   </action>
   <action id="Android.CleanRun" />
+  <action id="Back" />
   <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
   <action id="CompileDirty">
     <keyboard-shortcut first-keystroke="shift ctrl b" />
@@ -22,20 +23,68 @@
     <keyboard-shortcut first-keystroke="enter" />
   </action>
   <action id="DecrementWindowHeight" />
+  <action id="Diff.ApplyLeftSide" />
+  <action id="Diff.ApplyRightSide" />
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="meta z" />
   </action>
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="ctrl right" />
+  </action>
+  <action id="EditorLineEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl right" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="ctrl left" />
+  </action>
+  <action id="EditorLineStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl left" />
+  </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
+  <action id="EditorMatchBrace">
+    <keyboard-shortcut first-keystroke="ctrl end" />
+  </action>
+  <action id="EditorMoveToPageBottom">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="EditorMoveToPageBottomWithSelection">
+    <keyboard-shortcut first-keystroke="shift page_down" />
+  </action>
+  <action id="EditorMoveToPageTop">
+    <keyboard-shortcut first-keystroke="page_up" />
+  </action>
+  <action id="EditorMoveToPageTopWithSelection">
+    <keyboard-shortcut first-keystroke="shift page_up" />
+  </action>
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="EditorNextWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
   <action id="EditorPageDown" />
   <action id="EditorPageUp" />
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="EditorPreviousWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift alt left" />
+  </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
+  <action id="EditorTextEnd" />
+  <action id="EditorTextEndWithSelection" />
+  <action id="EditorTextStart" />
+  <action id="EditorTextStartWithSelection" />
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift meta down" />
   </action>
+  <action id="Find" />
+  <action id="FindInPath" />
   <action id="Flutter.JumpToSource" />
+  <action id="Forward" />
   <action id="Generate">
     <keyboard-shortcut first-keystroke="alt insert" />
     <keyboard-shortcut first-keystroke="f13" />
@@ -43,13 +92,9 @@
   <action id="Github.PullRequest.Details.Reload" />
   <action id="Github.PullRequest.Timeline.Update" />
   <action id="GotoNextError">
-    <keyboard-shortcut first-keystroke="f8" />
-    <keyboard-shortcut first-keystroke="page_down" />
     <keyboard-shortcut first-keystroke="ctrl up" />
   </action>
   <action id="GotoPreviousError">
-    <keyboard-shortcut first-keystroke="shift f8" />
-    <keyboard-shortcut first-keystroke="page_up" />
     <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
   <action id="GotoRelated" />
@@ -67,6 +112,9 @@
   <action id="MoveStatementUp">
     <keyboard-shortcut first-keystroke="ctrl meta up" />
   </action>
+  <action id="NewProject">
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="control button2" />
     <keyboard-shortcut first-keystroke="alt d" />
@@ -77,14 +125,24 @@
     <keyboard-shortcut first-keystroke="meta r" />
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="shift alt f" />
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
   <action id="Refresh" />
   <action id="ResizeToolWindowDown" />
+  <action id="ResizeToolWindowLeft" />
+  <action id="ResizeToolWindowRight" />
   <action id="ResizeToolWindowUp" />
+  <action id="ScrollPane-scrollDown" />
+  <action id="ScrollPane-scrollUp" />
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="shift ctrl a" />
+  </action>
   <action id="SearchEverywhere.NavigateToNextGroup" />
   <action id="SearchEverywhere.NavigateToPrevGroup" />
   <action id="ShowContent" />
   <action id="ShowErrorDescription">
-    <keyboard-shortcut first-keystroke="meta numpad0" />
     <keyboard-shortcut first-keystroke="ctrl numpad1" />
   </action>
   <action id="ShowIntentionActions">
@@ -95,11 +153,18 @@
     <keyboard-shortcut first-keystroke="context_menu" />
     <keyboard-shortcut first-keystroke="ctrl numpad0" />
   </action>
+  <action id="ShowReformatFileDialog">
+    <keyboard-shortcut first-keystroke="shift ctrl alt l" />
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
+  </action>
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="Table-scrollUpChangeSelection" />
+  <action id="Table-selectFirstRow" />
   <action id="Table-selectLastRow" />
   <action id="Tree-scrollUpChangeSelection" />
+  <action id="Tree-selectFirst" />
+  <action id="Tree-selectLastExtendSelection" />
   <action id="Vcs.Log.Refresh" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
