@@ -2958,24 +2958,6 @@
             </plugin>
           </value>
         </entry>
-        <entry key="*playbook.yaml">
-          <value>
-            <plugin>
-              <option name="myPluginId" value="org.jetbrains.plugins.yaml" />
-              <option name="myPluginName" value="YAML" />
-              <option name="myBundled" value="true" />
-            </plugin>
-          </value>
-        </entry>
-        <entry key="*playbook.yml">
-          <value>
-            <plugin>
-              <option name="myPluginId" value="org.jetbrains.plugins.yaml" />
-              <option name="myPluginName" value="YAML" />
-              <option name="myBundled" value="true" />
-            </plugin>
-          </value>
-        </entry>
         <entry key=".analysis_options">
           <value>
             <plugin>
@@ -3426,24 +3408,6 @@
             </plugin>
           </value>
         </entry>
-        <entry key="main.yaml">
-          <value>
-            <plugin>
-              <option name="myPluginId" value="org.jetbrains.plugins.yaml" />
-              <option name="myPluginName" value="YAML" />
-              <option name="myBundled" value="true" />
-            </plugin>
-          </value>
-        </entry>
-        <entry key="main.yml">
-          <value>
-            <plugin>
-              <option name="myPluginId" value="org.jetbrains.plugins.yaml" />
-              <option name="myPluginName" value="YAML" />
-              <option name="myBundled" value="true" />
-            </plugin>
-          </value>
-        </entry>
         <entry key="maven.config">
           <value>
             <plugin>
@@ -3743,9 +3707,19 @@
                       <FeaturePluginData displayName="Capistrano" pluginName="Ruby" pluginId="org.jetbrains.plugins.ruby" />
                     </value>
                   </entry>
+                  <entry key="CfmlUnitRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="MXUnit" pluginName="CFML" pluginId="CFML Support" />
+                    </value>
+                  </entry>
                   <entry key="ChromiumRemoteDebugType">
                     <value>
                       <FeaturePluginData displayName="Attach to Node.js/Chrome" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
+                    </value>
+                  </entry>
+                  <entry key="Cold Fusion runner description">
+                    <value>
+                      <FeaturePluginData displayName="Cold Fusion" pluginName="CFML" pluginId="CFML Support" />
                     </value>
                   </entry>
                   <entry key="CommandRunConfigurationType">

@@ -4,20 +4,19 @@
     <extensionMap>
       <mapping pattern="test" type="AUTO_DETECTED" />
       <mapping pattern="useTypedSelector.ts" type="AUTO_DETECTED" />
-      <mapping pattern="Jenkinsfile" type="Groovy" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="gemfile.lock" type="PLAIN_TEXT" />
       <mapping pattern="to-english-string" type="PLAIN_TEXT" />
       <mapping pattern="hash-table" type="PLAIN_TEXT" />
       <mapping pattern="to-title-case" type="PLAIN_TEXT" />
+      <mapping pattern="two-sum-e-e" type="PLAIN_TEXT" />
       <mapping pattern="get-range" type="PLAIN_TEXT" />
       <mapping pattern="min-heap" type="PLAIN_TEXT" />
-      <mapping pattern="two-sum-e-e" type="PLAIN_TEXT" />
       <mapping pattern="graph" type="PLAIN_TEXT" />
       <mapping pattern="weak-set" type="PLAIN_TEXT" />
-      <mapping pattern="avl-tree" type="PLAIN_TEXT" />
       <mapping pattern="get-duplicates" type="PLAIN_TEXT" />
+      <mapping pattern="avl-tree" type="PLAIN_TEXT" />
       <mapping pattern="two-sum-e" type="PLAIN_TEXT" />
       <mapping pattern="get-max-value" type="PLAIN_TEXT" />
       <mapping pattern="split" type="PLAIN_TEXT" />
@@ -53,8 +52,6 @@
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="tsv" approved="true" type="TSV" />
-      <removed_mapping ext="yaml" approved="true" type="YAML_EX" />
-      <removed_mapping ext="yml" approved="true" type="YAML_EX" />
       <mapping ext="wasm" type="WebAssembly file" />
       <mapping pattern="lists" type="Python" />
     </extensionMap>
