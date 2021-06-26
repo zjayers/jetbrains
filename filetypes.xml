@@ -15,8 +15,8 @@
       <mapping pattern="min-heap" type="PLAIN_TEXT" />
       <mapping pattern="graph" type="PLAIN_TEXT" />
       <mapping pattern="weak-set" type="PLAIN_TEXT" />
-      <mapping pattern="get-duplicates" type="PLAIN_TEXT" />
       <mapping pattern="avl-tree" type="PLAIN_TEXT" />
+      <mapping pattern="get-duplicates" type="PLAIN_TEXT" />
       <mapping pattern="two-sum-e" type="PLAIN_TEXT" />
       <mapping pattern="get-max-value" type="PLAIN_TEXT" />
       <mapping pattern="split" type="PLAIN_TEXT" />
@@ -28,8 +28,8 @@
       <mapping pattern=".pylintrc" type="PLAIN_TEXT" />
       <mapping pattern="tuple" type="PLAIN_TEXT" />
       <mapping pattern="flatten" type="PLAIN_TEXT" />
-      <mapping pattern="set" type="PLAIN_TEXT" />
       <mapping pattern="to-capital-case" type="PLAIN_TEXT" />
+      <mapping pattern="set" type="PLAIN_TEXT" />
       <mapping pattern="queue" type="PLAIN_TEXT" />
       <mapping pattern="node" type="PLAIN_TEXT" />
       <mapping pattern="weak-map" type="PLAIN_TEXT" />
