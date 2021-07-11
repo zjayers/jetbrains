@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern="test" type="AUTO_DETECTED" />
       <mapping pattern="useTypedSelector.ts" type="AUTO_DETECTED" />
+      <removed_mapping ext="graphqlconfig" type="JSON" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="gemfile.lock" type="PLAIN_TEXT" />
@@ -52,6 +53,8 @@
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="tsv" approved="true" type="TSV" />
+      <removed_mapping ext="yaml" type="YAML" />
+      <removed_mapping ext="yml" type="YAML" />
       <mapping ext="wasm" type="WebAssembly file" />
       <mapping pattern="lists" type="Python" />
     </extensionMap>

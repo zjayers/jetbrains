@@ -2,6 +2,7 @@
   <component name="UISettings">
     <option name="compactTreeIndents" value="true" />
     <option name="DND_WITH_PRESSED_ALT_ONLY" value="true" />
+    <option name="EDITOR_AA_TYPE" value="Greyscale" />
     <option name="EDITOR_TAB_LIMIT" value="8" />
     <option name="HIDE_TABS_IF_NEED" value="false" />
     <option name="IDE_AA_TYPE" value="Greyscale" />
