@@ -2,6 +2,5 @@
   <template name="cfs" value="&lt;cfset $VAR$ = $VALUE$ /&gt;" description="Insert cfset tag" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="&quot;var&quot;" defaultValue="var" alwaysStopAt="true" />
     <variable name="VALUE" expression="&quot;value&quot;" defaultValue="value" alwaysStopAt="true" />
-    <context />
   </template>
 </templateSet>
